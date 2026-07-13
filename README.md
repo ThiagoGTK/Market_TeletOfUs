@@ -6,7 +6,7 @@ Não é afiliado à equipe do Teletofus.
 
 ## O que tem aqui
 
-- **`codex.html`** — a página em si. Arquivo único (HTML + CSS + dados embutidos), sem dependências externas — abre em qualquer navegador.
+- **`codex.html`** / **`index.html`** — a página em si (os dois são idênticos; `index.html` existe só pra servir via GitHub Pages). Arquivo único (HTML + CSS + dados embutidos), sem dependências externas — abre em qualquer navegador.
 - **Catálogo de itens** (`items_final.json`, `bonus_items.json`, `build_data.js`) — 218 itens (armas, armaduras, acessórios, consumíveis, chaves, skins e habilidades especiais de boss), com classe, nível, mapa de drop e raridade.
 - **`telegram_market/`** — pipeline em Python que lê o tópico de vendas do grupo do Telegram, reconhece item + preço em texto livre e calcula o preço mediano de mercado.
 
@@ -28,6 +28,7 @@ E pra embutir o resultado dentro do `codex.html`:
 ```bash
 node -e "const fs=require('fs'); fs.writeFileSync('items.js.txt','const ITEMS = '+JSON.stringify(require('./items_final.json'))+';');"
 node inject_items.js
+cp codex.html index.html   # index.html precisa ficar igual, e' o que o GitHub Pages serve
 ```
 
 ## Como funciona o preço de mercado
