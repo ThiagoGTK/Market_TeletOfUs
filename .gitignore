@@ -1,0 +1,33 @@
+# Config local do Claude Code
+.claude/
+
+# Credenciais e sessao do Telegram — NUNCA versionar
+telegram_market/config.py
+telegram_market/*.session
+telegram_market/*.session-journal
+telegram_market/__pycache__/
+
+# Dados brutos/privados extraidos do grupo (mensagens, ids de usuario)
+telegram_market/raw_messages.jsonl
+telegram_market/trades.jsonl
+telegram_market/review_needed.csv
+telegram_market/chats.txt
+telegram_market/topics.txt
+
+# Scratch/debug gerado durante o desenvolvimento
+telegram_market/check_*.txt
+telegram_market/sample_other.txt
+telegram_market/sanity_check.txt
+telegram_market/fuzzy_test.txt
+telegram_market/missing_items.txt
+
+# Scraping/build scratch (bundle de terceiros, arquivos intermediarios)
+app.js
+extract.js
+ip_array.js
+ip_array.json
+cinzel.css
+cinzel700.ttf
+cinzel700.b64
+font.b64.txt
+items.js.txt
