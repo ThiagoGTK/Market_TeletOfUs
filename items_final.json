@@ -15,10 +15,10 @@
     "market": {
       "tofu": {
         "median": 15,
-        "avg": 13.8,
+        "avg": 13.69,
         "min": 5,
         "max": 20,
-        "samples": 69
+        "samples": 71
       },
       "gold": {
         "median": 40000,
@@ -45,10 +45,10 @@
     "market": {
       "tofu": {
         "median": 2,
-        "avg": 9.74,
+        "avg": 10.26,
         "min": 1,
         "max": 55,
-        "samples": 87
+        "samples": 91
       },
       "energia": {
         "median": 80,
@@ -58,11 +58,11 @@
         "samples": 10
       },
       "gold": {
-        "median": 500,
-        "avg": 60203,
+        "median": 600,
+        "avg": 43173.57,
         "min": 15,
         "max": 200000,
-        "samples": 5
+        "samples": 7
       },
       "poeira": {
         "median": 60,
@@ -169,6 +169,13 @@
         "max": 7,
         "samples": 13
       },
+      "gold": {
+        "median": 3000,
+        "avg": 3000,
+        "min": 2000,
+        "max": 4000,
+        "samples": 2
+      },
       "tofu": {
         "median": 2,
         "avg": 5,
@@ -194,10 +201,10 @@
     "market": {
       "tofu": {
         "median": 50,
-        "avg": 48.17,
+        "avg": 44.83,
         "min": 1,
         "max": 400,
-        "samples": 289
+        "samples": 367
       },
       "chave": {
         "median": 17.5,
@@ -312,10 +319,10 @@
       },
       "gold": {
         "median": 300,
-        "avg": 347.62,
-        "min": 200,
-        "max": 500,
-        "samples": 21
+        "avg": 366,
+        "min": 150,
+        "max": 1000,
+        "samples": 25
       }
     }
   },
@@ -363,6 +370,13 @@
     "twoHanded": false,
     "seasonal": false,
     "market": {
+      "gold": {
+        "median": 5000,
+        "avg": 5047.06,
+        "min": 200,
+        "max": 10000,
+        "samples": 68
+      },
       "energia": {
         "median": 5,
         "avg": 4.62,
@@ -376,13 +390,6 @@
         "min": 1,
         "max": 20,
         "samples": 183
-      },
-      "gold": {
-        "median": 5000,
-        "avg": 5857.14,
-        "min": 4000,
-        "max": 10000,
-        "samples": 49
       },
       "chave": {
         "median": 1,
@@ -423,11 +430,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 66,
-        "avg": 91,
+        "median": 100,
+        "avg": 95.69,
         "min": 32,
         "max": 200,
-        "samples": 8
+        "samples": 26
       }
     }
   },
@@ -529,10 +536,10 @@
     "market": {
       "gold": {
         "median": 6000,
-        "avg": 4436.73,
+        "avg": 4083.67,
         "min": 4,
         "max": 6000,
-        "samples": 11
+        "samples": 12
       },
       "tofu": {
         "median": 1,
@@ -595,11 +602,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 28,
-        "avg": 30.33,
+        "median": 35,
+        "avg": 38.5,
         "min": 28,
-        "max": 35,
-        "samples": 3
+        "max": 70,
+        "samples": 6
       }
     }
   },
@@ -619,17 +626,17 @@
     "market": {
       "gold": {
         "median": 12000,
-        "avg": 12019.88,
+        "avg": 11700.58,
         "min": 400,
         "max": 20000,
-        "samples": 166
+        "samples": 173
       },
       "tofu": {
         "median": 2,
-        "avg": 6.46,
+        "avg": 6.07,
         "min": 1,
         "max": 140,
-        "samples": 727
+        "samples": 880
       },
       "chave": {
         "median": 2,
@@ -640,10 +647,10 @@
       },
       "energia": {
         "median": 3,
-        "avg": 3.97,
+        "avg": 4,
         "min": 3,
         "max": 6,
-        "samples": 29
+        "samples": 28
       }
     }
   },
@@ -663,17 +670,17 @@
     "market": {
       "tofu": {
         "median": 2,
-        "avg": 3.5,
+        "avg": 3.52,
         "min": 1,
         "max": 32,
-        "samples": 1368
+        "samples": 1429
       },
       "gold": {
         "median": 10000,
-        "avg": 19388.57,
+        "avg": 19250.95,
         "min": 500,
         "max": 65000,
-        "samples": 525
+        "samples": 528
       },
       "energia": {
         "median": 6,
@@ -728,10 +735,10 @@
       },
       "gold": {
         "median": 5000,
-        "avg": 5958.45,
+        "avg": 5917.36,
         "min": 10,
         "max": 12000,
-        "samples": 71
+        "samples": 72
       }
     }
   },
@@ -766,17 +773,17 @@
     "market": {
       "gold": {
         "median": 5000,
-        "avg": 8845.78,
+        "avg": 8843.91,
         "min": 5,
         "max": 30000,
-        "samples": 486
+        "samples": 493
       },
       "tofu": {
         "median": 4,
-        "avg": 4.01,
+        "avg": 3.89,
         "min": 1,
         "max": 26,
-        "samples": 1054
+        "samples": 1117
       },
       "energia": {
         "median": 12,
@@ -810,10 +817,17 @@
     "market": {
       "tofu": {
         "median": 5,
-        "avg": 12.82,
+        "avg": 12.8,
         "min": 2,
         "max": 5000,
-        "samples": 666
+        "samples": 667
+      },
+      "gold": {
+        "median": 40000,
+        "avg": 29297.68,
+        "min": 300,
+        "max": 50000,
+        "samples": 302
       },
       "energia": {
         "median": 25,
@@ -821,13 +835,6 @@
         "min": 6,
         "max": 25,
         "samples": 10
-      },
-      "gold": {
-        "median": 40000,
-        "avg": 29848.8,
-        "min": 2000,
-        "max": 50000,
-        "samples": 291
       },
       "chave": {
         "median": 4,
@@ -899,10 +906,10 @@
     "market": {
       "tofu": {
         "median": 4,
-        "avg": 5.12,
+        "avg": 5.06,
         "min": 3,
         "max": 30,
-        "samples": 32
+        "samples": 34
       },
       "gold": {
         "median": 30000,
@@ -943,10 +950,10 @@
     "market": {
       "tofu": {
         "median": 4,
-        "avg": 3.61,
+        "avg": 3.62,
         "min": 2,
         "max": 10,
-        "samples": 69
+        "samples": 71
       },
       "energia": {
         "median": 10,
@@ -986,11 +993,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 4000,
-        "avg": 2254.55,
+        "median": 100,
+        "avg": 1010.77,
         "min": 50,
         "max": 4000,
-        "samples": 11
+        "samples": 26
       },
       "tofu": {
         "median": 1,
@@ -1016,11 +1023,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 50,
-        "avg": 82.5,
+        "median": 65,
+        "avg": 97.5,
         "min": 30,
         "max": 200,
-        "samples": 4
+        "samples": 12
       }
     }
   },
@@ -1207,10 +1214,10 @@
       },
       "gold": {
         "median": 200,
-        "avg": 183.33,
+        "avg": 228.57,
         "min": 150,
-        "max": 200,
-        "samples": 3
+        "max": 300,
+        "samples": 7
       }
     }
   },
@@ -1268,10 +1275,10 @@
     "market": {
       "tofu": {
         "median": 12,
-        "avg": 11.5,
+        "avg": 11.19,
         "min": 1,
         "max": 70,
-        "samples": 1231
+        "samples": 1331
       },
       "gold": {
         "median": 75000,
@@ -1357,10 +1364,10 @@
     "market": {
       "tofu": {
         "median": 50,
-        "avg": 51.58,
+        "avg": 51.59,
         "min": 10,
         "max": 100,
-        "samples": 375
+        "samples": 376
       },
       "chave": {
         "median": 35,
@@ -1424,10 +1431,10 @@
     "market": {
       "gold": {
         "median": 2500,
-        "avg": 91474.79,
+        "avg": 89990.91,
         "min": 200,
         "max": 2500000,
-        "samples": 119
+        "samples": 121
       },
       "energia": {
         "median": 5,
@@ -1438,10 +1445,10 @@
       },
       "tofu": {
         "median": 1,
-        "avg": 49.14,
+        "avg": 46.26,
         "min": 1,
         "max": 3000,
-        "samples": 359
+        "samples": 393
       },
       "poeira": {
         "median": 3,
@@ -1504,18 +1511,18 @@
         "samples": 1564
       },
       "gold": {
-        "median": 4000,
-        "avg": 9035.55,
+        "median": 3000,
+        "avg": 8144.78,
         "min": 87,
         "max": 500000,
-        "samples": 547
+        "samples": 623
       },
       "tofu": {
         "median": 1,
-        "avg": 8.25,
+        "avg": 8.28,
         "min": 1,
         "max": 600,
-        "samples": 1615
+        "samples": 1623
       },
       "chave": {
         "median": 50,
@@ -1548,11 +1555,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 7000,
-        "avg": 3750.33,
+        "median": 135,
+        "avg": 2019.48,
         "min": 30,
         "max": 10000,
-        "samples": 215
+        "samples": 418
       },
       "energia": {
         "median": 5,
@@ -1586,24 +1593,24 @@
     "market": {
       "tofu": {
         "median": 5,
-        "avg": 6.47,
+        "avg": 8.35,
         "min": 1,
         "max": 400,
-        "samples": 1630
+        "samples": 1862
       },
       "gold": {
         "median": 25000,
-        "avg": 33815.41,
+        "avg": 39310.21,
         "min": 3,
-        "max": 80000,
-        "samples": 333
+        "max": 300000,
+        "samples": 346
       },
       "poeira": {
         "median": 5,
-        "avg": 8763.42,
+        "avg": 8587,
         "min": 1,
         "max": 60000,
-        "samples": 146
+        "samples": 149
       },
       "energia": {
         "median": 15,
@@ -1613,11 +1620,11 @@
         "samples": 104
       },
       "chave": {
-        "median": 3,
-        "avg": 3.41,
+        "median": 5,
+        "avg": 14.44,
         "min": 3,
-        "max": 12,
-        "samples": 29
+        "max": 100,
+        "samples": 59
       }
     }
   },
@@ -1793,11 +1800,11 @@
         "samples": 283
       },
       "gold": {
-        "median": 1200,
-        "avg": 2300.31,
+        "median": 1450,
+        "avg": 2305.18,
         "min": 550,
         "max": 9500,
-        "samples": 160
+        "samples": 164
       },
       "energia": {
         "median": 3,
@@ -1868,10 +1875,10 @@
     "market": {
       "gold": {
         "median": 100,
-        "avg": 110.88,
+        "avg": 117.63,
         "min": 40,
-        "max": 440,
-        "samples": 74
+        "max": 500,
+        "samples": 99
       },
       "tofu": {
         "median": 1,
@@ -1898,17 +1905,17 @@
     "market": {
       "gold": {
         "median": 100,
-        "avg": 117.32,
+        "avg": 125.62,
         "min": 40,
         "max": 520,
-        "samples": 41
+        "samples": 97
       },
       "tofu": {
-        "median": 2,
-        "avg": 5.86,
+        "median": 1,
+        "avg": 3.27,
         "min": 1,
         "max": 12,
-        "samples": 7
+        "samples": 15
       }
     }
   },
@@ -1928,10 +1935,10 @@
     "market": {
       "gold": {
         "median": 120,
-        "avg": 442.08,
-        "min": 50,
+        "avg": 334.61,
+        "min": 40,
         "max": 1500,
-        "samples": 118
+        "samples": 180
       },
       "tofu": {
         "median": 1,
@@ -1988,10 +1995,10 @@
       },
       "gold": {
         "median": 150,
-        "avg": 150,
+        "avg": 153.33,
         "min": 150,
-        "max": 150,
-        "samples": 1
+        "max": 200,
+        "samples": 15
       }
     }
   },
@@ -2017,11 +2024,11 @@
         "samples": 5
       },
       "gold": {
-        "median": 300,
-        "avg": 613.83,
+        "median": 600,
+        "avg": 627.27,
         "min": 150,
-        "max": 1000,
-        "samples": 47
+        "max": 2000,
+        "samples": 110
       }
     }
   },
@@ -2039,19 +2046,19 @@
     "twoHanded": false,
     "seasonal": false,
     "market": {
-      "tofu": {
-        "median": 2,
-        "avg": 3.85,
-        "min": 1,
-        "max": 600,
-        "samples": 620
-      },
       "gold": {
         "median": 10000,
-        "avg": 9776.74,
+        "avg": 9662.53,
         "min": 25,
         "max": 25000,
-        "samples": 345
+        "samples": 361
+      },
+      "tofu": {
+        "median": 2,
+        "avg": 3.75,
+        "min": 1,
+        "max": 600,
+        "samples": 652
       },
       "energia": {
         "median": 8,
@@ -2091,11 +2098,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 375,
-        "avg": 456.55,
-        "min": 100,
-        "max": 2000,
-        "samples": 38
+        "median": 300,
+        "avg": 831.01,
+        "min": 80,
+        "max": 8000,
+        "samples": 78
       },
       "tofu": {
         "median": 2,
@@ -2122,10 +2129,17 @@
     "market": {
       "tofu": {
         "median": 2,
-        "avg": 2.33,
+        "avg": 2.13,
         "min": 1,
         "max": 35,
-        "samples": 427
+        "samples": 505
+      },
+      "gold": {
+        "median": 5000,
+        "avg": 7824.6,
+        "min": 25,
+        "max": 25000,
+        "samples": 186
       },
       "energia": {
         "median": 10,
@@ -2140,13 +2154,6 @@
         "min": 1,
         "max": 3,
         "samples": 54
-      },
-      "gold": {
-        "median": 5000,
-        "avg": 8163.01,
-        "min": 25,
-        "max": 25000,
-        "samples": 171
       }
     }
   },
@@ -2165,11 +2172,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 350,
-        "avg": 703.23,
-        "min": 200,
+        "median": 200,
+        "avg": 408.94,
+        "min": 4,
         "max": 5000,
-        "samples": 31
+        "samples": 66
       },
       "tofu": {
         "median": 2.5,
@@ -2196,24 +2203,24 @@
     "market": {
       "tofu": {
         "median": 2,
-        "avg": 2.31,
+        "avg": 2.2,
         "min": 1,
         "max": 30,
-        "samples": 738
+        "samples": 814
       },
       "energia": {
         "median": 15,
-        "avg": 14.91,
+        "avg": 13.76,
         "min": 3,
-        "max": 27,
-        "samples": 23
+        "max": 25,
+        "samples": 21
       },
       "gold": {
         "median": 5000,
-        "avg": 7754.54,
+        "avg": 7535.21,
         "min": 25,
         "max": 25000,
-        "samples": 446
+        "samples": 492
       },
       "chave": {
         "median": 1,
@@ -2239,11 +2246,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 300,
-        "avg": 325.88,
-        "min": 100,
+        "median": 150,
+        "avg": 244.49,
+        "min": 6,
         "max": 1500,
-        "samples": 17
+        "samples": 71
       },
       "tofu": {
         "median": 2,
@@ -2270,10 +2277,10 @@
     "market": {
       "gold": {
         "median": 200,
-        "avg": 255.73,
+        "avg": 241,
         "min": 60,
-        "max": 500,
-        "samples": 26
+        "max": 1000,
+        "samples": 89
       },
       "tofu": {
         "median": 5,
@@ -2299,11 +2306,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 425,
-        "avg": 633.65,
-        "min": 300,
+        "median": 300,
+        "avg": 520.25,
+        "min": 250,
         "max": 3000,
-        "samples": 52
+        "samples": 79
       },
       "tofu": {
         "median": 5,
@@ -2336,11 +2343,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 200,
-        "avg": 892.22,
-        "min": 80,
+        "median": 150,
+        "avg": 437.62,
+        "min": 2,
         "max": 3000,
-        "samples": 9
+        "samples": 21
       },
       "tofu": {
         "median": 10,
@@ -2367,10 +2374,10 @@
     "market": {
       "gold": {
         "median": 150,
-        "avg": 3085.28,
-        "min": 60,
+        "avg": 1450.23,
+        "min": 3,
         "max": 100000,
-        "samples": 36
+        "samples": 83
       },
       "tofu": {
         "median": 2,
@@ -2396,11 +2403,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 1000,
-        "avg": 863.64,
-        "min": 500,
+        "median": 250,
+        "avg": 479.11,
+        "min": 120,
         "max": 1000,
-        "samples": 11
+        "samples": 56
       },
       "tofu": {
         "median": 9.5,
@@ -2426,11 +2433,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 1000,
-        "avg": 809.29,
+        "median": 300,
+        "avg": 551.94,
         "min": 130,
-        "max": 1500,
-        "samples": 14
+        "max": 2000,
+        "samples": 67
       },
       "tofu": {
         "median": 4,
@@ -2553,17 +2560,17 @@
     "market": {
       "gold": {
         "median": 1000,
-        "avg": 3259.15,
-        "min": 500,
+        "avg": 2324.55,
+        "min": 125,
         "max": 65000,
-        "samples": 71
+        "samples": 111
       },
       "tofu": {
         "median": 35,
-        "avg": 67.6,
+        "avg": 70.69,
         "min": 1,
         "max": 150,
-        "samples": 164
+        "samples": 154
       }
     }
   },
@@ -2582,11 +2589,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 800,
-        "avg": 1497.44,
-        "min": 300,
+        "median": 400,
+        "avg": 713.77,
+        "min": 9,
         "max": 8000,
-        "samples": 39
+        "samples": 158
       },
       "tofu": {
         "median": 20,
@@ -2612,11 +2619,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 500,
-        "avg": 901.07,
+        "median": 400,
+        "avg": 533.98,
         "min": 180,
         "max": 3000,
-        "samples": 28
+        "samples": 98
       },
       "tofu": {
         "median": 5,
@@ -2642,11 +2649,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 500,
-        "avg": 496.97,
+        "median": 400,
+        "avg": 464.76,
         "min": 200,
         "max": 1200,
-        "samples": 33
+        "samples": 105
       },
       "tofu": {
         "median": 25,
@@ -2672,11 +2679,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 650,
-        "avg": 875,
-        "min": 250,
+        "median": 400,
+        "avg": 540.25,
+        "min": 5,
         "max": 3000,
-        "samples": 24
+        "samples": 121
       },
       "energia": {
         "median": 1,
@@ -2709,11 +2716,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 500,
-        "avg": 578.93,
-        "min": 150,
+        "median": 400,
+        "avg": 480.46,
+        "min": 3,
         "max": 2000,
-        "samples": 56
+        "samples": 162
       },
       "energia": {
         "median": 1,
@@ -2815,17 +2822,17 @@
     "market": {
       "tofu": {
         "median": 20,
-        "avg": 43.39,
-        "min": 4,
+        "avg": 41.42,
+        "min": 3,
         "max": 5000,
-        "samples": 1297
+        "samples": 1390
       },
       "gold": {
         "median": 100000,
-        "avg": 97027.21,
+        "avg": 96664.43,
         "min": 4600,
         "max": 150000,
-        "samples": 147
+        "samples": 149
       },
       "chave": {
         "median": 7,
@@ -2865,11 +2872,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 17,
-        "avg": 18,
+        "median": 15,
+        "avg": 17.79,
         "min": 2,
         "max": 90,
-        "samples": 995
+        "samples": 1048
       },
       "gold": {
         "median": 90000,
@@ -2909,11 +2916,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 18,
-        "avg": 24.68,
+        "median": 15,
+        "avg": 23.94,
         "min": 1,
         "max": 180,
-        "samples": 1185
+        "samples": 1281
       },
       "energia": {
         "median": 30,
@@ -2930,11 +2937,11 @@
         "samples": 76
       },
       "gold": {
-        "median": 115000,
-        "avg": 102058.79,
+        "median": 110000,
+        "avg": 97751.88,
         "min": 55,
         "max": 350000,
-        "samples": 66
+        "samples": 69
       },
       "poeira": {
         "median": 2,
@@ -2961,17 +2968,17 @@
     "market": {
       "tofu": {
         "median": 35,
-        "avg": 30.71,
+        "avg": 31.14,
         "min": 1,
         "max": 60,
-        "samples": 145
+        "samples": 152
       },
       "gold": {
-        "median": 2000,
-        "avg": 27410.24,
-        "min": 800,
+        "median": 1500,
+        "avg": 13880.38,
+        "min": 500,
         "max": 800000,
-        "samples": 127
+        "samples": 265
       },
       "energia": {
         "median": 120,
@@ -3004,11 +3011,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 49,
-        "avg": 71.23,
+        "median": 45,
+        "avg": 69.02,
         "min": 5,
         "max": 750,
-        "samples": 1146
+        "samples": 1223
       },
       "gold": {
         "median": 200000,
@@ -3047,6 +3054,13 @@
     "twoHanded": false,
     "seasonal": false,
     "market": {
+      "gold": {
+        "median": 800,
+        "avg": 1368.18,
+        "min": 120,
+        "max": 30000,
+        "samples": 203
+      },
       "energia": {
         "median": 60,
         "avg": 51.76,
@@ -3060,13 +3074,6 @@
         "min": 2,
         "max": 220,
         "samples": 487
-      },
-      "gold": {
-        "median": 1000,
-        "avg": 1410.67,
-        "min": 500,
-        "max": 5000,
-        "samples": 75
       }
     }
   },
@@ -3085,11 +3092,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 70,
-        "avg": 75.23,
+        "median": 62.5,
+        "avg": 72.37,
         "min": 10,
         "max": 300,
-        "samples": 426
+        "samples": 482
       },
       "energia": {
         "median": 360,
@@ -3130,10 +3137,10 @@
     "market": {
       "tofu": {
         "median": 35,
-        "avg": 57.62,
+        "avg": 57.88,
         "min": 10,
         "max": 650,
-        "samples": 89
+        "samples": 86
       }
     }
   },
@@ -3153,10 +3160,10 @@
     "market": {
       "tofu": {
         "median": 50,
-        "avg": 103.11,
+        "avg": 100.32,
         "min": 30,
         "max": 600,
-        "samples": 90
+        "samples": 95
       },
       "chave": {
         "median": 150,
@@ -3206,17 +3213,17 @@
     "market": {
       "tofu": {
         "median": 20,
-        "avg": 18.9,
+        "avg": 19.11,
         "min": 1,
         "max": 100,
-        "samples": 900
+        "samples": 937
       },
       "gold": {
         "median": 100000,
-        "avg": 109038.46,
-        "min": 50000,
+        "avg": 107759.49,
+        "min": 8000,
         "max": 175000,
-        "samples": 78
+        "samples": 79
       },
       "energia": {
         "median": 24,
@@ -3250,17 +3257,17 @@
     "market": {
       "tofu": {
         "median": 5,
-        "avg": 5.47,
+        "avg": 5.49,
         "min": 3,
         "max": 15,
-        "samples": 886
+        "samples": 934
       },
       "gold": {
         "median": 25000,
-        "avg": 28358.65,
+        "avg": 28361.06,
         "min": 22,
         "max": 200000,
-        "samples": 679
+        "samples": 680
       },
       "energia": {
         "median": 15,
@@ -3301,17 +3308,17 @@
     "market": {
       "tofu": {
         "median": 20,
-        "avg": 34.54,
+        "avg": 34.13,
         "min": 1,
         "max": 300,
-        "samples": 776
+        "samples": 854
       },
       "gold": {
         "median": 150000,
-        "avg": 229500,
-        "min": 500,
+        "avg": 189619.13,
+        "min": 180,
         "max": 600000,
-        "samples": 19
+        "samples": 23
       },
       "poeira": {
         "median": 4,
@@ -3359,10 +3366,10 @@
       },
       "tofu": {
         "median": 20,
-        "avg": 25.6,
+        "avg": 25.09,
         "min": 1,
         "max": 400,
-        "samples": 942
+        "samples": 990
       },
       "energia": {
         "median": 60,
@@ -3395,18 +3402,18 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 1500,
-        "avg": 62477.22,
-        "min": 750,
+        "median": 1000,
+        "avg": 34798.89,
+        "min": 350,
         "max": 800000,
-        "samples": 79
+        "samples": 144
       },
       "tofu": {
         "median": 35,
-        "avg": 68.93,
+        "avg": 69.48,
         "min": 1,
         "max": 250,
-        "samples": 383
+        "samples": 378
       },
       "energia": {
         "median": 60,
@@ -3432,25 +3439,25 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 30,
-        "avg": 33.68,
+        "median": 18,
+        "avg": 26.17,
         "min": 3,
-        "max": 160,
-        "samples": 177
+        "max": 200,
+        "samples": 169
+      },
+      "chave": {
+        "median": 5,
+        "avg": 5.82,
+        "min": 5,
+        "max": 7,
+        "samples": 22
       },
       "energia": {
         "median": 90,
-        "avg": 106,
+        "avg": 90,
         "min": 90,
-        "max": 150,
-        "samples": 45
-      },
-      "chave": {
-        "median": 7,
-        "avg": 12.59,
-        "min": 5,
-        "max": 25,
-        "samples": 34
+        "max": 90,
+        "samples": 33
       },
       "gold": {
         "median": 450000,
@@ -3552,11 +3559,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 32,
-        "avg": 91.13,
+        "median": 35,
+        "avg": 88.1,
         "min": 1,
         "max": 1000,
-        "samples": 757
+        "samples": 802
       },
       "chave": {
         "median": 5,
@@ -3589,11 +3596,11 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 2000,
-        "avg": 1637.5,
+        "median": 500,
+        "avg": 708.99,
         "min": 400,
         "max": 5000,
-        "samples": 20
+        "samples": 139
       },
       "energia": {
         "median": 3.5,
@@ -3626,11 +3633,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 25,
-        "avg": 36.89,
+        "median": 30,
+        "avg": 44.56,
         "min": 5,
-        "max": 120,
-        "samples": 455
+        "max": 240,
+        "samples": 491
       },
       "gold": {
         "median": 200000,
@@ -3645,13 +3652,6 @@
         "min": 160,
         "max": 200,
         "samples": 8
-      },
-      "chave": {
-        "median": 5,
-        "avg": 5,
-        "min": 5,
-        "max": 5,
-        "samples": 3
       }
     }
   },
@@ -3671,17 +3671,17 @@
     "market": {
       "tofu": {
         "median": 30,
-        "avg": 50.64,
+        "avg": 48.39,
         "min": 1,
         "max": 200,
-        "samples": 205
+        "samples": 217
       },
       "gold": {
-        "median": 1000,
-        "avg": 55907.82,
+        "median": 800,
+        "avg": 23302.55,
         "min": 1,
         "max": 800000,
-        "samples": 80
+        "samples": 198
       },
       "energia": {
         "median": 25,
@@ -3714,11 +3714,11 @@
         "samples": 18
       },
       "gold": {
-        "median": 2000,
-        "avg": 78540.6,
+        "median": 800,
+        "avg": 29292.27,
         "min": 1,
         "max": 800000,
-        "samples": 53
+        "samples": 146
       },
       "chave": {
         "median": 1,
@@ -3743,19 +3743,19 @@
     "twoHanded": false,
     "seasonal": false,
     "market": {
+      "gold": {
+        "median": 800,
+        "avg": 19554.62,
+        "min": 1,
+        "max": 800000,
+        "samples": 174
+      },
       "tofu": {
         "median": 19,
         "avg": 23.53,
         "min": 1,
         "max": 40,
         "samples": 38
-      },
-      "gold": {
-        "median": 2000,
-        "avg": 41516.3,
-        "min": 1,
-        "max": 800000,
-        "samples": 80
       }
     }
   },
@@ -3781,11 +3781,11 @@
         "samples": 41
       },
       "gold": {
-        "median": 2000,
-        "avg": 1897.69,
+        "median": 900,
+        "avg": 1315.35,
         "min": 1,
         "max": 10000,
-        "samples": 42
+        "samples": 150
       },
       "energia": {
         "median": 4,
@@ -3811,18 +3811,18 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 30,
-        "avg": 47.36,
+        "median": 32,
+        "avg": 59.24,
         "min": 1,
         "max": 150,
-        "samples": 157
+        "samples": 189
       },
       "gold": {
-        "median": 1000,
-        "avg": 1184.92,
+        "median": 800,
+        "avg": 1377.54,
         "min": 1,
         "max": 5000,
-        "samples": 26
+        "samples": 127
       },
       "energia": {
         "median": 120,
@@ -3855,18 +3855,18 @@
     "seasonal": false,
     "market": {
       "gold": {
-        "median": 2500,
-        "avg": 260106.49,
-        "min": 350,
+        "median": 1000,
+        "avg": 123470.25,
+        "min": 300,
         "max": 3500000,
-        "samples": 77
+        "samples": 163
       },
       "tofu": {
         "median": 30,
-        "avg": 28.61,
+        "avg": 28.41,
         "min": 10,
         "max": 35,
-        "samples": 36
+        "samples": 41
       },
       "chave": {
         "median": 5,
@@ -3922,11 +3922,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 60,
-        "avg": 106.56,
+        "median": 45,
+        "avg": 101.21,
         "min": 1,
         "max": 600,
-        "samples": 947
+        "samples": 1011
       },
       "gold": {
         "median": 7000,
@@ -3974,10 +3974,10 @@
     "market": {
       "tofu": {
         "median": 20,
-        "avg": 34.76,
-        "min": 8,
+        "avg": 35.09,
+        "min": 5,
         "max": 180,
-        "samples": 352
+        "samples": 343
       },
       "chave": {
         "median": 13,
@@ -4018,10 +4018,10 @@
     "market": {
       "tofu": {
         "median": 55,
-        "avg": 65.38,
+        "avg": 65.18,
         "min": 5,
         "max": 1500,
-        "samples": 197
+        "samples": 198
       },
       "gold": {
         "median": 200000,
@@ -4055,10 +4055,10 @@
     "market": {
       "tofu": {
         "median": 40,
-        "avg": 40.21,
+        "avg": 39.67,
         "min": 10,
         "max": 70,
-        "samples": 169
+        "samples": 178
       },
       "gold": {
         "median": 225000,
@@ -4085,17 +4085,17 @@
     "market": {
       "tofu": {
         "median": 25,
-        "avg": 35.49,
+        "avg": 35.37,
         "min": 3,
         "max": 350,
-        "samples": 1003
+        "samples": 1035
       },
       "gold": {
-        "median": 125000,
-        "avg": 97800.33,
-        "min": 10,
+        "median": 100000,
+        "avg": 88909.85,
+        "min": 5,
         "max": 150000,
-        "samples": 30
+        "samples": 33
       },
       "chave": {
         "median": 23,
@@ -4136,10 +4136,10 @@
     "market": {
       "tofu": {
         "median": 30,
-        "avg": 43.18,
+        "avg": 48.53,
         "min": 4,
-        "max": 150,
-        "samples": 920
+        "max": 200,
+        "samples": 1249
       },
       "energia": {
         "median": 75,
@@ -4179,11 +4179,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 100,
-        "avg": 164.86,
+        "median": 75,
+        "avg": 160.92,
         "min": 15,
         "max": 750,
-        "samples": 764
+        "samples": 787
       },
       "energia": {
         "median": 60,
@@ -4261,10 +4261,10 @@
     "market": {
       "tofu": {
         "median": 80,
-        "avg": 79.71,
+        "avg": 78.46,
         "min": 20,
         "max": 220,
-        "samples": 520
+        "samples": 539
       },
       "gold": {
         "median": 80,
@@ -4311,11 +4311,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 40,
-        "avg": 50.95,
+        "median": 39,
+        "avg": 48.41,
         "min": 10,
         "max": 240,
-        "samples": 741
+        "samples": 816
       },
       "energia": {
         "median": 150,
@@ -4326,10 +4326,10 @@
       },
       "chave": {
         "median": 25,
-        "avg": 21.48,
+        "avg": 22.89,
         "min": 8,
         "max": 25,
-        "samples": 42
+        "samples": 36
       },
       "gold": {
         "median": 450000,
@@ -4409,10 +4409,10 @@
     "market": {
       "tofu": {
         "median": 5,
-        "avg": 9.57,
+        "avg": 9.47,
         "min": 1,
         "max": 60,
-        "samples": 1923
+        "samples": 1960
       },
       "gold": {
         "median": 30000,
@@ -4483,10 +4483,10 @@
     "market": {
       "tofu": {
         "median": 40,
-        "avg": 56.09,
-        "min": 7,
+        "avg": 54.71,
+        "min": 2,
         "max": 4500,
-        "samples": 1117
+        "samples": 1209
       },
       "chave": {
         "median": 25,
@@ -4526,11 +4526,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 85,
-        "avg": 85,
+        "median": 100,
+        "avg": 90,
         "min": 70,
         "max": 100,
-        "samples": 2
+        "samples": 3
       }
     }
   },
@@ -4550,17 +4550,17 @@
     "market": {
       "gold": {
         "median": 25000,
-        "avg": 37650.54,
-        "min": 2000,
+        "avg": 38038.04,
+        "min": 15000,
         "max": 500000,
-        "samples": 186
+        "samples": 184
       },
       "tofu": {
         "median": 8,
-        "avg": 28.18,
+        "avg": 26.16,
         "min": 1,
         "max": 270,
-        "samples": 1262
+        "samples": 1476
       },
       "energia": {
         "median": 30,
@@ -4654,10 +4654,10 @@
     "market": {
       "tofu": {
         "median": 80,
-        "avg": 86.01,
+        "avg": 84.26,
         "min": 45,
         "max": 175,
-        "samples": 267
+        "samples": 299
       },
       "energia": {
         "median": 300,
@@ -4690,11 +4690,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 140,
-        "avg": 154.29,
+        "median": 120,
+        "avg": 150.51,
         "min": 80,
         "max": 300,
-        "samples": 84
+        "samples": 98
       },
       "chave": {
         "median": 40,
@@ -4781,17 +4781,10 @@
     "market": {
       "tofu": {
         "median": 60,
-        "avg": 81.84,
+        "avg": 81.93,
         "min": 20,
         "max": 1000,
-        "samples": 381
-      },
-      "chave": {
-        "median": 25,
-        "avg": 27.4,
-        "min": 25,
-        "max": 45,
-        "samples": 25
+        "samples": 384
       },
       "energia": {
         "median": 750,
@@ -4806,6 +4799,13 @@
         "min": 10,
         "max": 12,
         "samples": 4
+      },
+      "chave": {
+        "median": 25,
+        "avg": 25,
+        "min": 25,
+        "max": 25,
+        "samples": 22
       }
     }
   },
@@ -4825,10 +4825,10 @@
     "market": {
       "tofu": {
         "median": 20,
-        "avg": 25.58,
+        "avg": 27.17,
         "min": 15,
-        "max": 50,
-        "samples": 206
+        "max": 90,
+        "samples": 212
       },
       "energia": {
         "median": 45,
@@ -4854,11 +4854,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 30,
-        "avg": 34.58,
+        "median": 35,
+        "avg": 34.79,
         "min": 20,
         "max": 90,
-        "samples": 83
+        "samples": 95
       },
       "energia": {
         "median": 90,
@@ -4885,10 +4885,10 @@
     "market": {
       "tofu": {
         "median": 40,
-        "avg": 42.79,
+        "avg": 42.47,
         "min": 15,
         "max": 60,
-        "samples": 86
+        "samples": 87
       },
       "energia": {
         "median": 90,
@@ -4928,11 +4928,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 28,
-        "avg": 44.15,
+        "median": 25,
+        "avg": 42.75,
         "min": 1,
         "max": 250,
-        "samples": 587
+        "samples": 637
       },
       "energia": {
         "median": 120,
@@ -4979,11 +4979,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 30,
-        "avg": 30.09,
+        "median": 25,
+        "avg": 28.39,
         "min": 10,
         "max": 70,
-        "samples": 146
+        "samples": 166
       },
       "chave": {
         "median": 15,
@@ -5024,10 +5024,10 @@
     "market": {
       "tofu": {
         "median": 35,
-        "avg": 45.15,
-        "min": 10,
+        "avg": 44.78,
+        "min": 5,
         "max": 220,
-        "samples": 305
+        "samples": 337
       },
       "poeira": {
         "median": 5,
@@ -5112,10 +5112,10 @@
     "market": {
       "tofu": {
         "median": 30,
-        "avg": 41.55,
+        "avg": 41,
         "min": 5,
         "max": 180,
-        "samples": 277
+        "samples": 282
       },
       "energia": {
         "median": 60,
@@ -5156,10 +5156,10 @@
     "market": {
       "tofu": {
         "median": 15,
-        "avg": 25.13,
+        "avg": 22.43,
         "min": 0.3,
         "max": 150,
-        "samples": 721
+        "samples": 863
       },
       "energia": {
         "median": 45,
@@ -5206,11 +5206,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 30,
-        "avg": 40.22,
+        "median": 35,
+        "avg": 46.42,
         "min": 5,
         "max": 170,
-        "samples": 464
+        "samples": 508
       },
       "energia": {
         "median": 150,
@@ -5228,10 +5228,10 @@
       },
       "chave": {
         "median": 10,
-        "avg": 7.31,
+        "avg": 7,
         "min": 2,
         "max": 10,
-        "samples": 29
+        "samples": 26
       },
       "poeira": {
         "median": 4,
@@ -5257,11 +5257,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 50,
-        "avg": 53.72,
+        "median": 45,
+        "avg": 48.16,
         "min": 10,
         "max": 200,
-        "samples": 104
+        "samples": 154
       },
       "poeira": {
         "median": 2,
@@ -5325,10 +5325,10 @@
     "market": {
       "tofu": {
         "median": 124.5,
-        "avg": 149.5,
-        "min": 70,
+        "avg": 146.47,
+        "min": 2,
         "max": 250,
-        "samples": 30
+        "samples": 32
       }
     }
   },
@@ -5371,10 +5371,10 @@
     "market": {
       "tofu": {
         "median": 120,
-        "avg": 159.13,
+        "avg": 143.73,
         "min": 50,
         "max": 350,
-        "samples": 46
+        "samples": 55
       }
     }
   },
@@ -5401,10 +5401,10 @@
       },
       "tofu": {
         "median": 80,
-        "avg": 122.86,
+        "avg": 123.24,
         "min": 20,
         "max": 350,
-        "samples": 159
+        "samples": 165
       },
       "energia": {
         "median": 390,
@@ -5431,10 +5431,10 @@
     "market": {
       "tofu": {
         "median": 100,
-        "avg": 136.68,
+        "avg": 135.89,
         "min": 1,
         "max": 300,
-        "samples": 96
+        "samples": 97
       },
       "energia": {
         "median": 600,
@@ -5775,10 +5775,10 @@
     "market": {
       "tofu": {
         "median": 20,
-        "avg": 22.91,
+        "avg": 22.6,
         "min": 2,
         "max": 50,
-        "samples": 918
+        "samples": 938
       },
       "gold": {
         "median": 40000,
@@ -5842,10 +5842,10 @@
     "market": {
       "tofu": {
         "median": 50,
-        "avg": 54.65,
+        "avg": 54.35,
         "min": 30,
         "max": 100,
-        "samples": 142
+        "samples": 154
       }
     }
   },
@@ -5972,6 +5972,43 @@
     }
   },
   {
+    "key": "bau_tesouro",
+    "name": "Baú do Tesouro",
+    "slot": "key",
+    "rarity": "epic",
+    "class": null,
+    "level": null,
+    "location": "Desconhecido (não documentado no site oficial)",
+    "attrs": "—",
+    "dropRate": null,
+    "tradeable": true,
+    "twoHanded": false,
+    "seasonal": false,
+    "market": {
+      "tofu": {
+        "median": 5,
+        "avg": 5.33,
+        "min": 5,
+        "max": 7,
+        "samples": 6
+      },
+      "gold": {
+        "median": 75000,
+        "avg": 62501.17,
+        "min": 7,
+        "max": 75000,
+        "samples": 6
+      },
+      "energia": {
+        "median": 15,
+        "avg": 15,
+        "min": 15,
+        "max": 15,
+        "samples": 5
+      }
+    }
+  },
+  {
     "key": "cajado_lich",
     "name": "Cajado do Lich",
     "slot": "special",
@@ -6017,10 +6054,10 @@
     "market": {
       "tofu": {
         "median": 100,
-        "avg": 119.65,
-        "min": 15,
+        "avg": 121.72,
+        "min": 1,
         "max": 250,
-        "samples": 172
+        "samples": 225
       },
       "gold": {
         "median": 540000,
@@ -6051,7 +6088,15 @@
     "tradeable": true,
     "twoHanded": false,
     "seasonal": false,
-    "market": null
+    "market": {
+      "tofu": {
+        "median": 100,
+        "avg": 101.88,
+        "min": 17,
+        "max": 1000,
+        "samples": 164
+      }
+    }
   },
   {
     "key": "skin_dragon_black_archer_f",
@@ -6167,10 +6212,10 @@
     "market": {
       "tofu": {
         "median": 20,
-        "avg": 20.04,
-        "min": 3,
+        "avg": 19.67,
+        "min": 2,
         "max": 50,
-        "samples": 686
+        "samples": 736
       },
       "energia": {
         "median": 120,
@@ -6211,17 +6256,17 @@
     "market": {
       "tofu": {
         "median": 5,
-        "avg": 6.39,
+        "avg": 6.37,
         "min": 2,
         "max": 25,
-        "samples": 519
+        "samples": 513
       },
       "gold": {
         "median": 25000,
-        "avg": 33409.09,
-        "min": 10000,
+        "avg": 32914.93,
+        "min": 300,
         "max": 50000,
-        "samples": 66
+        "samples": 67
       },
       "energia": {
         "median": 30,
@@ -6259,7 +6304,15 @@
     "tradeable": true,
     "twoHanded": true,
     "seasonal": false,
-    "market": null
+    "market": {
+      "tofu": {
+        "median": 50,
+        "avg": 52.15,
+        "min": 50,
+        "max": 75,
+        "samples": 79
+      }
+    }
   },
   {
     "key": "golpe_obelisco",
@@ -6276,11 +6329,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 9,
-        "avg": 8.97,
+        "median": 8,
+        "avg": 8.64,
         "min": 1,
         "max": 30,
-        "samples": 1378
+        "samples": 1470
       },
       "gold": {
         "median": 15000,
@@ -6409,10 +6462,10 @@
     "market": {
       "tofu": {
         "median": 9,
-        "avg": 9.13,
+        "avg": 9.05,
         "min": 1,
         "max": 20,
-        "samples": 859
+        "samples": 868
       },
       "gold": {
         "median": 5000,
@@ -6452,11 +6505,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 6,
-        "avg": 7.4,
+        "median": 5,
+        "avg": 7.31,
         "min": 1,
         "max": 20,
-        "samples": 826
+        "samples": 856
       },
       "gold": {
         "median": 37500,
@@ -6497,10 +6550,10 @@
     "market": {
       "tofu": {
         "median": 5,
-        "avg": 8.15,
+        "avg": 8.07,
         "min": 1,
         "max": 20,
-        "samples": 1960
+        "samples": 1968
       },
       "gold": {
         "median": 20000,
@@ -6548,17 +6601,17 @@
     "market": {
       "tofu": {
         "median": 4,
-        "avg": 4.16,
+        "avg": 4.11,
         "min": 1,
         "max": 30,
-        "samples": 2008
+        "samples": 2057
       },
       "gold": {
         "median": 8000,
-        "avg": 18212.44,
+        "avg": 18215.7,
         "min": 2700,
         "max": 50000,
-        "samples": 434
+        "samples": 446
       },
       "energia": {
         "median": 24,
@@ -6636,10 +6689,10 @@
     "market": {
       "tofu": {
         "median": 40,
-        "avg": 39.42,
+        "avg": 39.43,
         "min": 15,
         "max": 60,
-        "samples": 252
+        "samples": 253
       },
       "gold": {
         "median": 100000,
@@ -6679,11 +6732,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 16,
-        "avg": 15.47,
+        "median": 15,
+        "avg": 15.48,
         "min": 2,
         "max": 30,
-        "samples": 648
+        "samples": 665
       },
       "gold": {
         "median": 75000,
@@ -6730,11 +6783,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 140,
-        "avg": 107.7,
+        "median": 130,
+        "avg": 106.84,
         "min": 15,
         "max": 250,
-        "samples": 50
+        "samples": 49
       }
     }
   },
@@ -6751,7 +6804,29 @@
     "tradeable": true,
     "twoHanded": true,
     "seasonal": false,
-    "market": null
+    "market": {
+      "tofu": {
+        "median": 47.5,
+        "avg": 42.69,
+        "min": 18,
+        "max": 50,
+        "samples": 140
+      },
+      "energia": {
+        "median": 150,
+        "avg": 150,
+        "min": 150,
+        "max": 150,
+        "samples": 24
+      },
+      "chave": {
+        "median": 25,
+        "avg": 25,
+        "min": 25,
+        "max": 25,
+        "samples": 24
+      }
+    }
   },
   {
     "key": "rugido_rochedo",
@@ -6769,10 +6844,10 @@
     "market": {
       "tofu": {
         "median": 15,
-        "avg": 17,
+        "avg": 17.02,
         "min": 3,
         "max": 50,
-        "samples": 345
+        "samples": 344
       },
       "energia": {
         "median": 40,
@@ -6813,10 +6888,10 @@
     "market": {
       "tofu": {
         "median": 15,
-        "avg": 17.04,
-        "min": 2,
+        "avg": 16.6,
+        "min": 1,
         "max": 250,
-        "samples": 1912
+        "samples": 1980
       },
       "gold": {
         "median": 85000,
@@ -6863,11 +6938,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 10,
-        "avg": 10.05,
+        "median": 9,
+        "avg": 9.82,
         "min": 1,
         "max": 65,
-        "samples": 1545
+        "samples": 1607
       },
       "gold": {
         "median": 40000,

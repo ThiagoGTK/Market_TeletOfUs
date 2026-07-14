@@ -23,5 +23,7 @@
   { "key": "vontade_lich", "name": "Vontade do Lich", "slot": "special", "rarity": "legendary", "class": "mago", "level": null, "location": "Pântano", "attrs": "Recarga: 5 turnos. Toda a equipe recupera 35% do HP máximo. No PvP, recupera 20% do HP máximo.", "dropRate": null, "tradeable": true, "twoHanded": false, "seasonal": false },
   { "key": "orbe_solar", "name": "Orbe Solar", "slot": "special", "rarity": "legendary", "class": "mago", "level": null, "location": "Floresta Sombria", "attrs": "Recarga: 5 turnos. Causa um golpe com 1.4x de dano e concede +15% de ataque para toda a equipe por 2 turnos.", "dropRate": null, "tradeable": true, "twoHanded": false, "seasonal": false },
 
-  { "key": "cajado_lich", "name": "Cajado do Lich", "slot": "special", "rarity": "legendary", "class": "mago", "level": null, "location": "Desconhecido (não confirmado no jogo)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": true, "seasonal": false }
+  { "key": "cajado_lich", "name": "Cajado do Lich", "slot": "special", "rarity": "legendary", "class": "mago", "level": null, "location": "Desconhecido (não confirmado no jogo)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": true, "seasonal": false },
+
+  { "key": "bau_tesouro", "name": "Baú do Tesouro", "slot": "key", "rarity": "epic", "class": null, "level": null, "location": "Desconhecido (não documentado no site oficial)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": false, "seasonal": false }
 ]

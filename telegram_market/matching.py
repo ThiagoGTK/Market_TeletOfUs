@@ -48,13 +48,26 @@ CURRENCY_PATTERN = (
     r"(gold|ouro|tofus?|tufos?|moedas?|coins?|energias?|poeiras?(?!\s+estelar)|"
     r"\btf\b|\bg\b|\bod\b|🪙|💰|🧆|🧀|🔑|🗝️?|⚡)"
 )
+# mesma coisa, mas sem exigir fronteira de palavra ANTES da abreviacao — usada
+# so na direcao "numero -> moeda", onde e comum o valor vir colado ("20tf",
+# "50g", sem espaco). A fronteira DEPOIS continua exigida pra nao casar dentro
+# de outra palavra qualquer.
+CURRENCY_PATTERN_GLUED = (
+    r"(gold|ouro|tofus?|tufos?|moedas?|coins?|energias?|poeiras?(?!\s+estelar)|"
+    r"tf\b|g\b|od\b|🪙|💰|🧆|🧀|🔑|🗝️?|⚡)"
+)
 # conector opcional entre o "k" (mil) e a moeda: "15k de ouro", "20k gold",
 # "70k( apenas gold)" — aceita espacos, parenteses e as palavras de ligacao
 # em qualquer combinacao entre o numero e a moeda.
-CONNECTOR = r"[\s()]*(?:(?:de|apenas|s[oó])[\s()]*)*"
+# "t" sozinho e usado por alguns jogadores como abreviacao muda de "tofu" logo
+# antes do emoji 🧀 ("40t🧀", "15t 🧀") — entra como mais um token de ligacao.
+CONNECTOR = r"[\s()]*(?:(?:de|apenas|s[oó]|t)[\s()]*)*"
+
+# marca de tier aprimorado, ex "65🧀 +1 180🧀" (preco base +1 preco do "+1")
+TIER_MARKER_RE = re.compile(r"\+\s*\d+")
 
 PRICE_RE = re.compile(
-    r"(\d+(?:[.,]\d{3})*(?:[.,]\d+)?)\s*(k\b)?" + CONNECTOR + CURRENCY_PATTERN,
+    r"(\d+(?:[.,]\d{3})*(?:[.,]\d+)?)\s*(k\b)?" + CONNECTOR + CURRENCY_PATTERN_GLUED,
     re.IGNORECASE,
 )
 PRICE_RE_REVERSED = re.compile(
@@ -111,6 +124,13 @@ MANUAL_ALIASES = {
     "botas do sol": "boots_solar_step",
 }
 MANUAL_ALIASES_NORM = {normalize(alias): key for alias, key in MANUAL_ALIASES.items()}
+
+# emoji usados como apelido pro item inteiro (sem nenhuma palavra do nome na
+# mensagem) — normalize() remove todo emoji, entao isso e checado a parte, no
+# texto original da linha.
+EMOJI_ITEM_ALIASES = {
+    "🌟": "stardust",  # Poeira Estelar
+}
 
 
 def currency_of(word):
@@ -221,7 +241,20 @@ def find_items(norm_text, window_threshold=90, token_threshold=85):
 def _line_result(line):
     norm = normalize(line)
     items = find_items(norm)
+    if not items:
+        for emoji, key in EMOJI_ITEM_ALIASES.items():
+            if emoji in line:
+                items = [(ITEMS_BY_KEY[key], 100)]
+                break
     prices = find_prices(line)
+
+    # "Item 65🧀 +1 180🧀": preco base e preco do item aprimorado ("+1") na
+    # MESMA moeda — sao precos de coisas diferentes (tiers diferentes), entao
+    # so aproveita o primeiro (base) e descarta o "+1", em vez de jogar tudo
+    # pra revisao ou misturar os dois numa mediana sem sentido.
+    if len(prices) == 2 and prices[0]["currency"] == prices[1]["currency"] and TIER_MARKER_RE.search(line):
+        prices = [prices[0]]
+
     # preco "confiavel" e 1 item + 1 preco (caso simples), OU 1 item + varios
     # precos em MOEDAS DIFERENTES (comum: "Item — 5 tofu | 25k gold", o mesmo
     # item anunciado por mais de uma forma de pagamento vira uma venda por moeda).
