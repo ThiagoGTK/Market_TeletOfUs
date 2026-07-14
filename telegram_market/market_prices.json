@@ -3960,6 +3960,29 @@
       "samples": 2
     }
   },
+  "chave_cripta": {
+    "tofu": {
+      "median": 2.0,
+      "avg": 2.28,
+      "min": 2.0,
+      "max": 3.0,
+      "samples": 50
+    },
+    "gold": {
+      "median": 30000.0,
+      "avg": 27666.67,
+      "min": 16000.0,
+      "max": 30000.0,
+      "samples": 6
+    },
+    "energia": {
+      "median": 6.0,
+      "avg": 6.0,
+      "min": 6.0,
+      "max": 6.0,
+      "samples": 5
+    }
+  },
   "mountain_war_dragonblade": {
     "tofu": {
       "median": 200.0,
@@ -4026,11 +4049,11 @@
   },
   "mountain_mag_dragonstaff": {
     "tofu": {
-      "median": 124.5,
-      "avg": 146.47,
-      "min": 2.0,
+      "median": 149.0,
+      "avg": 151.13,
+      "min": 70.0,
       "max": 250.0,
-      "samples": 32
+      "samples": 31
     }
   },
   "mountain_arc_wyvernbow": {

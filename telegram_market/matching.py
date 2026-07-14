@@ -146,6 +146,8 @@ ITEMS_BY_KEY = {i["key"]: i for i in ITEMS}
 MANUAL_ALIASES = {
     "botas do sol": "boots_solar_step",
     "cajado da hydra a": "hydra_mag_staff",  # "A." = abreviacao de "Ancestral"
+    "chave das minas": "chave_cripta",  # apelido informal da Chave da Cripta
+    "chaves das minas": "chave_cripta",
 }
 MANUAL_ALIASES_NORM = {normalize(alias): key for alias, key in MANUAL_ALIASES.items()}
 

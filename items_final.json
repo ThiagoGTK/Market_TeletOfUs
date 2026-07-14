@@ -3142,25 +3142,25 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 65,
-        "avg": 73.17,
+        "median": 70,
+        "avg": 75.33,
         "min": 10,
         "max": 300,
-        "samples": 497
+        "samples": 521
       },
       "energia": {
         "median": 360,
-        "avg": 326.6,
+        "avg": 334.24,
         "min": 60,
         "max": 390,
-        "samples": 81
+        "samples": 105
       },
       "chave": {
         "median": 60,
-        "avg": 52.38,
+        "avg": 54.07,
         "min": 5,
         "max": 65,
-        "samples": 84
+        "samples": 108
       },
       "gold": {
         "median": 80,
@@ -5502,11 +5502,11 @@
     "seasonal": false,
     "market": {
       "tofu": {
-        "median": 124.5,
-        "avg": 146.47,
-        "min": 2,
+        "median": 149,
+        "avg": 151.13,
+        "min": 70,
         "max": 250,
-        "samples": 32
+        "samples": 31
       }
     }
   },
@@ -6298,6 +6298,43 @@
     }
   },
   {
+    "key": "chave_cripta",
+    "name": "Chave da Cripta",
+    "slot": "key",
+    "rarity": "epic",
+    "class": null,
+    "level": null,
+    "location": "Desconhecido (não documentado no site oficial)",
+    "attrs": "—",
+    "dropRate": null,
+    "tradeable": true,
+    "twoHanded": false,
+    "seasonal": false,
+    "market": {
+      "tofu": {
+        "median": 2,
+        "avg": 2.28,
+        "min": 2,
+        "max": 3,
+        "samples": 50
+      },
+      "gold": {
+        "median": 30000,
+        "avg": 27666.67,
+        "min": 16000,
+        "max": 30000,
+        "samples": 6
+      },
+      "energia": {
+        "median": 6,
+        "avg": 6,
+        "min": 6,
+        "max": 6,
+        "samples": 5
+      }
+    }
+  },
+  {
     "key": "escudo_arcano",
     "name": "Escudo Arcano",
     "slot": "special",
@@ -6563,7 +6600,29 @@
     "tradeable": true,
     "twoHanded": false,
     "seasonal": false,
-    "market": null
+    "market": {
+      "tofu": {
+        "median": 100,
+        "avg": 100,
+        "min": 100,
+        "max": 100,
+        "samples": 174
+      },
+      "chave": {
+        "median": 50,
+        "avg": 50,
+        "min": 50,
+        "max": 50,
+        "samples": 174
+      },
+      "energia": {
+        "median": 300,
+        "avg": 300,
+        "min": 300,
+        "max": 300,
+        "samples": 125
+      }
+    }
   },
   {
     "key": "furia_lobo",
