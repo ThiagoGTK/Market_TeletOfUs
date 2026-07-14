@@ -46,7 +46,7 @@ STARDUST_WORDS = {"poeira", "poeiras"}
 # nao pagamento), ex "vendo 5 poeira estelar por 10 tofu" (5 = quantidade do item).
 CURRENCY_PATTERN = (
     r"(gold|ouro|tofus?|tufos?|tfc|moedas?|coins?|energias?|poeiras?(?!\s+estelar)|"
-    r"\btf\b|\bg\b|\bod\b|🪙|💰|🧆|🧀|🔑|🗝️?|⚡|🔋|🌟)"
+    r"\btf\b|\bg\b|\bod\b|🪙|💰|💵|🧆|🧀|🔑|🗝️?|⚡|🔋|🌟)"
 )
 # a palavra "energia"/"energias" some daqui (direcao "moeda -> numero") —
 # mensagens costumam usar "Energia" como TITULO/rotulo antes de uma quantidade
@@ -55,7 +55,7 @@ CURRENCY_PATTERN = (
 # continua valendo nas duas direcoes, que e inequivoco.
 CURRENCY_PATTERN_REVERSED = (
     r"(gold|ouro|tofus?|tufos?|tfc|moedas?|coins?|poeiras?(?!\s+estelar)|"
-    r"\btf\b|\bg\b|\bod\b|🪙|💰|🧆|🧀|🔑|🗝️?|⚡|🔋|🌟)"
+    r"\btf\b|\bg\b|\bod\b|🪙|💰|💵|🧆|🧀|🔑|🗝️?|⚡|🔋|🌟)"
 )
 # mesma coisa, mas sem exigir fronteira de palavra ANTES da abreviacao — usada
 # so na direcao "numero -> moeda", onde e comum o valor vir colado ("20tf",
@@ -63,7 +63,7 @@ CURRENCY_PATTERN_REVERSED = (
 # de outra palavra qualquer.
 CURRENCY_PATTERN_GLUED = (
     r"(gold|ouro|tofus?|tufos?|tfc|moedas?|coins?|energias?|poeiras?(?!\s+estelar)|"
-    r"tf\b|g\b|od\b|🪙|💰|🧆|🧀|🔑|🗝️?|⚡|🔋|🌟)"
+    r"tf\b|g\b|od\b|🪙|💰|💵|🧆|🧀|🔑|🗝️?|⚡|🔋|🌟)"
 )
 # conector opcional entre o "k" (mil) e a moeda: "15k de ouro", "20k gold",
 # "70k( apenas gold)", "**5" (markdown) — aceita espacos, parenteses,
@@ -73,7 +73,7 @@ CURRENCY_PATTERN_GLUED = (
 # antes do emoji 🧀 ("40t🧀", "15t 🧀") — entra como mais um token de ligacao.
 # NAO inclui "/" de proposito: em listas tipo "70k/5🧀/15⚡" isso fazia o emoji
 # de um preco "vazar" pro numero seguinte da lista (bug real, ja corrigido).
-CONNECTOR = r"[\s()*:]*(?:(?:de|apenas|s[oó]|t)[\s()*:]*)*"
+CONNECTOR = r"[\s()*:~]*(?:(?:de|apenas|s[oó]|t)[\s()*:~]*)*"
 
 # marca de tier aprimorado, ex "65🧀 +1 180🧀" (preco base +1 preco do "+1")
 TIER_MARKER_RE = re.compile(r"\+\s*\d+")
@@ -139,17 +139,31 @@ ITEMS = load_items()
 ITEMS_BY_KEY = {i["key"]: i for i in ITEMS}
 
 # apelidos que os jogadores usam e que NAO batem por fuzzy (palavras totalmente
-# diferentes do nome oficial, nao erro de digitacao/abreviacao) — mapeamento
-# manual, curado a partir de casos vistos no chat.
+# diferentes do nome oficial, nao erro de digitacao/abreviacao) — checado
+# junto com o resto do catalogo (substring direto), seguro porque sao frases
+# de varias palavras, dificil aparecerem por acaso numa mensagem sobre outro
+# item.
 MANUAL_ALIASES = {
     "botas do sol": "boots_solar_step",
-    "poeira": "stardust",  # "Poeira" sozinho, sem "estelar"
+    "cajado da hydra a": "hydra_mag_staff",  # "A." = abreviacao de "Ancestral"
 }
 MANUAL_ALIASES_NORM = {normalize(alias): key for alias, key in MANUAL_ALIASES.items()}
 
+# apelidos de UMA PALAVRA SO que TAMBEM sao nome de moeda ("poeira", 🌟) — ao
+# contrario dos de cima, so contam como FALLBACK, quando mais nada bateu na
+# mensagem inteira. Sem essa guarda, uma mensagem tipo "compro anel por 5
+# poeira" (pagando com poeira por OUTRO item) tambem "acharia" o item Poeira
+# Estelar so por causa da palavra, virando 2 itens e quebrando um match que
+# antes era limpo.
+FALLBACK_WORD_ALIASES = {
+    "poeira": "stardust",
+    "energia": "energy_potion",
+}
+FALLBACK_WORD_ALIASES_NORM = {normalize(alias): key for alias, key in FALLBACK_WORD_ALIASES.items()}
+
 # emoji usados como apelido pro item inteiro (sem nenhuma palavra do nome na
 # mensagem) — normalize() remove todo emoji, entao isso e checado a parte, no
-# texto original da linha.
+# texto original da linha. Mesma regra de fallback dos apelidos de palavra.
 EMOJI_ITEM_ALIASES = {
     "🌟": "stardust",  # Poeira Estelar
 }
@@ -160,11 +174,12 @@ EMOJI_ITEM_ALIASES = {
 # pra filtrar essa autorreferencia, seja o apelido por emoji ou por palavra.
 ITEM_SELF_CURRENCY = {
     "stardust": "poeira",
+    "energy_potion": "energia",
 }
 
 
 def currency_of(word):
-    if word in ("🪙", "💰"):
+    if word in ("🪙", "💰", "💵"):
         return "gold"
     if word in ("🧆", "🧀"):
         return "tofu"
@@ -315,6 +330,11 @@ def _line_result(line):
     if not items:
         for emoji, key in EMOJI_ITEM_ALIASES.items():
             if emoji in line:
+                items = [(ITEMS_BY_KEY[key], 100)]
+                break
+    if not items:
+        for alias_norm, key in FALLBACK_WORD_ALIASES_NORM.items():
+            if alias_norm in norm:
                 items = [(ITEMS_BY_KEY[key], 100)]
                 break
     prices = find_prices(line)
