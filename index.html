@@ -328,12 +328,14 @@
     top: 0;
     z-index: 20;
     display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 0.6rem;
-    padding: 0.65rem 0.5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.6rem;
+    padding: 0.65rem var(--wrap-pad-x);
     margin: 0 calc(-1 * var(--wrap-pad-x)) 1.75rem;
-    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    max-height: 40vh;
+    overflow-y: auto;
+    background: color-mix(in srgb, var(--bg) 94%, transparent);
     backdrop-filter: blur(6px);
     border-bottom: 1px solid var(--border);
   }
@@ -349,22 +351,14 @@
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--text-dim);
-    padding-left: 1rem;
+    padding-top: 0.35rem;
   }
 
   .level-nav-buttons {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    flex-wrap: wrap;
     gap: 0.4rem;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    -webkit-mask-image: linear-gradient(to right, transparent 0, black 1.25rem, black calc(100% - 1.25rem), transparent 100%);
-    mask-image: linear-gradient(to right, transparent 0, black 1.25rem, black calc(100% - 1.25rem), transparent 100%);
-  }
-
-  .level-nav-buttons::-webkit-scrollbar {
-    display: none;
+    flex: 1;
   }
 
   .level-nav-btn {
