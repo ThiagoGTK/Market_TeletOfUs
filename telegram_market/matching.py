@@ -38,40 +38,61 @@ BOT_NOISE_RE = re.compile(
 # item "Chave de Masmorra"/"Chave de Ossos" sendo vendido) — so o emoji 🔑, que e
 # inequivoco.
 GOLD_WORDS = {"gold", "ouro", "moeda", "moedas", "coin", "coins", "g", "od"}
-TOFU_WORDS = {"tofu", "tofus", "tf", "tufo", "tufos"}
+TOFU_WORDS = {"tofu", "tofus", "tf", "tufo", "tufos", "tfc"}
 ENERGY_WORDS = {"energia", "energias"}
 STARDUST_WORDS = {"poeira", "poeiras"}
 # "poeira"/"poeiras" so conta como moeda quando NAO vier seguido de "estelar" —
 # nesse caso e o nome do item Poeira Estelar sendo vendido/descrito (quantidade,
 # nao pagamento), ex "vendo 5 poeira estelar por 10 tofu" (5 = quantidade do item).
 CURRENCY_PATTERN = (
-    r"(gold|ouro|tofus?|tufos?|moedas?|coins?|energias?|poeiras?(?!\s+estelar)|"
-    r"\btf\b|\bg\b|\bod\b|🪙|💰|🧆|🧀|🔑|🗝️?|⚡)"
+    r"(gold|ouro|tofus?|tufos?|tfc|moedas?|coins?|energias?|poeiras?(?!\s+estelar)|"
+    r"\btf\b|\bg\b|\bod\b|🪙|💰|🧆|🧀|🔑|🗝️?|⚡|🔋|🌟)"
+)
+# a palavra "energia"/"energias" some daqui (direcao "moeda -> numero") —
+# mensagens costumam usar "Energia" como TITULO/rotulo antes de uma quantidade
+# ("⚡️ Energia (3x - ...)"), o que casava errado como "moeda energia = 3". Por
+# extenso so conta como moeda vindo DEPOIS do numero ("300 energia"); o emoji
+# continua valendo nas duas direcoes, que e inequivoco.
+CURRENCY_PATTERN_REVERSED = (
+    r"(gold|ouro|tofus?|tufos?|tfc|moedas?|coins?|poeiras?(?!\s+estelar)|"
+    r"\btf\b|\bg\b|\bod\b|🪙|💰|🧆|🧀|🔑|🗝️?|⚡|🔋|🌟)"
 )
 # mesma coisa, mas sem exigir fronteira de palavra ANTES da abreviacao — usada
 # so na direcao "numero -> moeda", onde e comum o valor vir colado ("20tf",
 # "50g", sem espaco). A fronteira DEPOIS continua exigida pra nao casar dentro
 # de outra palavra qualquer.
 CURRENCY_PATTERN_GLUED = (
-    r"(gold|ouro|tofus?|tufos?|moedas?|coins?|energias?|poeiras?(?!\s+estelar)|"
-    r"tf\b|g\b|od\b|🪙|💰|🧆|🧀|🔑|🗝️?|⚡)"
+    r"(gold|ouro|tofus?|tufos?|tfc|moedas?|coins?|energias?|poeiras?(?!\s+estelar)|"
+    r"tf\b|g\b|od\b|🪙|💰|🧆|🧀|🔑|🗝️?|⚡|🔋|🌟)"
 )
 # conector opcional entre o "k" (mil) e a moeda: "15k de ouro", "20k gold",
-# "70k( apenas gold)" — aceita espacos, parenteses e as palavras de ligacao
-# em qualquer combinacao entre o numero e a moeda.
+# "70k( apenas gold)", "**5" (markdown) — aceita espacos, parenteses,
+# asteriscos de markdown e as palavras de ligacao em qualquer combinacao entre
+# o numero e a moeda.
 # "t" sozinho e usado por alguns jogadores como abreviacao muda de "tofu" logo
 # antes do emoji 🧀 ("40t🧀", "15t 🧀") — entra como mais um token de ligacao.
-CONNECTOR = r"[\s()]*(?:(?:de|apenas|s[oó]|t)[\s()]*)*"
+# NAO inclui "/" de proposito: em listas tipo "70k/5🧀/15⚡" isso fazia o emoji
+# de um preco "vazar" pro numero seguinte da lista (bug real, ja corrigido).
+CONNECTOR = r"[\s()*:]*(?:(?:de|apenas|s[oó]|t)[\s()*:]*)*"
 
 # marca de tier aprimorado, ex "65🧀 +1 180🧀" (preco base +1 preco do "+1")
 TIER_MARKER_RE = re.compile(r"\+\s*\d+")
+
+# marca de tabela de quantidade, ex "1x 5🧀 / 10x 45🧀" (preco unitario +
+# preco no atacado) — o preco de mercado que interessa e o unitario (1x).
+BULK_MARKER_RE = re.compile(r"\b1x\b", re.IGNORECASE)
+
+# "Nk" sem moeda nenhuma do lado ("Martelo do gibby 80 k") — convencao da
+# comunidade pra gold, ja que tofu/chave/energia raramente chegam na casa dos
+# milhares. So usado como fallback quando nada mais casou (ver find_prices).
+BARE_K_RE = re.compile(r"\b(\d+(?:[.,]\d+)?)\s*k\b", re.IGNORECASE)
 
 PRICE_RE = re.compile(
     r"(\d+(?:[.,]\d{3})*(?:[.,]\d+)?)\s*(k\b)?" + CONNECTOR + CURRENCY_PATTERN_GLUED,
     re.IGNORECASE,
 )
 PRICE_RE_REVERSED = re.compile(
-    CURRENCY_PATTERN + CONNECTOR + r"[:\-]?\s*(\d+(?:[.,]\d{3})*(?:[.,]\d+)?)\s*(k\b)?",
+    CURRENCY_PATTERN_REVERSED + CONNECTOR + r"[:\-]?\s*(\d+(?:[.,]\d{3})*(?:[.,]\d+)?)\s*(k\b)?",
     re.IGNORECASE,
 )
 
@@ -122,6 +143,7 @@ ITEMS_BY_KEY = {i["key"]: i for i in ITEMS}
 # manual, curado a partir de casos vistos no chat.
 MANUAL_ALIASES = {
     "botas do sol": "boots_solar_step",
+    "poeira": "stardust",  # "Poeira" sozinho, sem "estelar"
 }
 MANUAL_ALIASES_NORM = {normalize(alias): key for alias, key in MANUAL_ALIASES.items()}
 
@@ -132,6 +154,14 @@ EMOJI_ITEM_ALIASES = {
     "🌟": "stardust",  # Poeira Estelar
 }
 
+# quando um item eh mencionado so pelo apelido curto ("poeira", 🌟) que
+# TAMBEM e nome de moeda, o numero do lado e QUANTIDADE do item, nao preco
+# naquela moeda (senao vira um item "custando ele mesmo"). Mapeia item -> moeda
+# pra filtrar essa autorreferencia, seja o apelido por emoji ou por palavra.
+ITEM_SELF_CURRENCY = {
+    "stardust": "poeira",
+}
+
 
 def currency_of(word):
     if word in ("🪙", "💰"):
@@ -140,8 +170,10 @@ def currency_of(word):
         return "tofu"
     if word in ("🔑", "🗝️", "🗝"):
         return "chave"
-    if word == "⚡":
+    if word in ("⚡", "🔋"):
         return "energia"
+    if word == "🌟":
+        return "poeira"
     w = unidecode(word).lower()
     if w in GOLD_WORDS:
         return "gold"
@@ -166,19 +198,58 @@ def parse_price_number(raw, has_k):
     return value
 
 
+# alguns nomes de item contem uma palavra que TAMBEM e nome de moeda ("Ovo de
+# OURO", "Poção/Pacote de ENERGIA") — sem isso, "Ovo de Ouro - 12 tofu" lia
+# "ouro" do proprio nome do item como se fosse a moeda gold. Mascara essas
+# frases antes de procurar preco (a deteccao de item usa o texto original,
+# sem essa mascara, entao nao afeta o reconhecimento do item em si).
+PROTECTED_ITEM_PHRASES_RE = re.compile(
+    r"ovo\s+de\s+ouro|(?:por?[çc](?:[aã]o|[oõ]es)|pacote|pote?s?)\s+de\s+energias?",
+    re.IGNORECASE,
+)
+
+
 def find_prices(original_text):
     """Retorna lista de {"value": float, "currency": "gold"|"tofu"}, sem duplicatas."""
+    original_text = PROTECTED_ITEM_PHRASES_RE.sub(" ", original_text)
     found = []
+    # guarda o TRECHO (span) de cada simbolo/palavra de moeda ja usado num preco
+    # "numero -> moeda". Isso impede que o mesmo emoji sirva DUAS vezes — uma
+    # vez fechando um preco, outra vez "vazando" pra abrir o preco seguinte via
+    # padrao reverso ("moeda -> numero"), que e como "5🧀 55.000💰" virava
+    # "55.000 tofu" por engano alem do correto "55.000 gold".
+    consumed_currency_spans = []
+    # guarda tambem o trecho do NUMERO (com "k" se tiver) de cada preco ja
+    # resolvido, pra saber quais "Nk" ainda estao "soltos" (ver BARE_K_RE).
+    consumed_number_spans = []
     for m in PRICE_RE.finditer(original_text):
         val = parse_price_number(m.group(1), bool(m.group(2)))
         cur = currency_of(m.group(3))
         if val and cur:
             found.append({"value": val, "currency": cur})
+            consumed_currency_spans.append(m.span(3))
+            consumed_number_spans.append((m.start(1), m.end(2) if m.group(2) else m.end(1)))
     for m in PRICE_RE_REVERSED.finditer(original_text):
+        cur_start, cur_end = m.span(1)
+        if any(cur_start < e and cur_end > s for s, e in consumed_currency_spans):
+            continue
         val = parse_price_number(m.group(2), bool(m.group(3)))
         cur = currency_of(m.group(1))
         if val and cur:
             found.append({"value": val, "currency": cur})
+            consumed_number_spans.append((m.start(2), m.end(3) if m.group(3) else m.end(2)))
+
+    # "Nk" sem NENHUMA moeda por perto (nao capturado pelos passes acima) e
+    # convencao da comunidade pra gold ("Martelo do gibby 80 k" = 80 mil gold).
+    # So conta se o "k" nao faz parte de um preco que ja foi resolvido com
+    # outra moeda (senao ia duplicar/contradizer).
+    for m in BARE_K_RE.finditer(original_text):
+        span = m.span(0)
+        if any(span[0] < e and span[1] > s for s, e in consumed_number_spans):
+            continue
+        val = parse_price_number(m.group(1), True)
+        if val:
+            found.append({"value": val, "currency": "gold"})
 
     seen = set()
     unique = []
@@ -247,12 +318,21 @@ def _line_result(line):
                 items = [(ITEMS_BY_KEY[key], 100)]
                 break
     prices = find_prices(line)
+    if len(items) == 1 and items[0][0]["key"] in ITEM_SELF_CURRENCY:
+        self_currency = ITEM_SELF_CURRENCY[items[0][0]["key"]]
+        prices = [p for p in prices if p["currency"] != self_currency]
 
     # "Item 65🧀 +1 180🧀": preco base e preco do item aprimorado ("+1") na
     # MESMA moeda — sao precos de coisas diferentes (tiers diferentes), entao
     # so aproveita o primeiro (base) e descarta o "+1", em vez de jogar tudo
     # pra revisao ou misturar os dois numa mediana sem sentido.
     if len(prices) == 2 and prices[0]["currency"] == prices[1]["currency"] and TIER_MARKER_RE.search(line):
+        prices = [prices[0]]
+
+    # "Item - 1x 5🧀 / 10x 45🧀": preco unitario e preco no atacado, mesma
+    # moeda — fica so com o unitario (1x), que e o que representa o preco de
+    # mercado do item avulso.
+    if len(prices) == 2 and prices[0]["currency"] == prices[1]["currency"] and BULK_MARKER_RE.search(line):
         prices = [prices[0]]
 
     # preco "confiavel" e 1 item + 1 preco (caso simples), OU 1 item + varios

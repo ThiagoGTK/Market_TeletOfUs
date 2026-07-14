@@ -2,24 +2,24 @@
   "energy_potion": {
     "energia": {
       "median": 5.0,
-      "avg": 2793.28,
+      "avg": 126.89,
       "min": 1.0,
-      "max": 3500000.0,
-      "samples": 1564
+      "max": 4400.0,
+      "samples": 512
     },
     "gold": {
-      "median": 3000.0,
-      "avg": 8144.78,
-      "min": 87.0,
-      "max": 500000.0,
-      "samples": 623
+      "median": 2500.0,
+      "avg": 9054.45,
+      "min": 30.0,
+      "max": 2000000.0,
+      "samples": 1040
     },
     "tofu": {
       "median": 1.0,
-      "avg": 8.28,
+      "avg": 8.15,
       "min": 1.0,
       "max": 600.0,
-      "samples": 1623
+      "samples": 1657
     },
     "chave": {
       "median": 50.0,
@@ -27,22 +27,15 @@
       "min": 1.0,
       "max": 50.0,
       "samples": 10
-    },
-    "poeira": {
-      "median": 60000.0,
-      "avg": 60000.0,
-      "min": 60000.0,
-      "max": 60000.0,
-      "samples": 8
     }
   },
   "chain_armor": {
     "gold": {
-      "median": 150.0,
-      "avg": 244.49,
+      "median": 200.0,
+      "avg": 454.49,
       "min": 6.0,
-      "max": 1500.0,
-      "samples": 71
+      "max": 5000.0,
+      "samples": 80
     },
     "tofu": {
       "median": 2.0,
@@ -52,13 +45,36 @@
       "samples": 2
     }
   },
+  "sapphire_amulet": {
+    "gold": {
+      "median": 5000.0,
+      "avg": 5616.11,
+      "min": 10.0,
+      "max": 12000.0,
+      "samples": 90
+    },
+    "energia": {
+      "median": 8.0,
+      "avg": 7.57,
+      "min": 5.0,
+      "max": 8.0,
+      "samples": 7
+    },
+    "tofu": {
+      "median": 2.0,
+      "avg": 1.68,
+      "min": 1.0,
+      "max": 4.0,
+      "samples": 125
+    }
+  },
   "sabre": {
     "gold": {
-      "median": 150.0,
-      "avg": 1450.23,
+      "median": 200.0,
+      "avg": 1526.92,
       "min": 3.0,
       "max": 100000.0,
-      "samples": 83
+      "samples": 88
     },
     "tofu": {
       "median": 2.0,
@@ -71,10 +87,17 @@
   "hunting_bow": {
     "gold": {
       "median": 100.0,
-      "avg": 95.69,
-      "min": 32.0,
+      "avg": 92.89,
+      "min": 20.0,
       "max": 200.0,
-      "samples": 26
+      "samples": 27
+    },
+    "tofu": {
+      "median": 15.0,
+      "avg": 15.0,
+      "min": 15.0,
+      "max": 15.0,
+      "samples": 1
     }
   },
   "short_sword": {
@@ -86,13 +109,45 @@
       "samples": 12
     }
   },
+  "plate_armor": {
+    "gold": {
+      "median": 500.0,
+      "avg": 847.12,
+      "min": 9.0,
+      "max": 12000.0,
+      "samples": 182
+    },
+    "tofu": {
+      "median": 20.0,
+      "avg": 21.8,
+      "min": 2.0,
+      "max": 60.0,
+      "samples": 35
+    }
+  },
+  "tower_shield": {
+    "gold": {
+      "median": 500.0,
+      "avg": 39097.9,
+      "min": 5.0,
+      "max": 6000000.0,
+      "samples": 157
+    },
+    "tofu": {
+      "median": 6.5,
+      "avg": 6.5,
+      "min": 3.0,
+      "max": 10.0,
+      "samples": 2
+    }
+  },
   "crossbow": {
     "gold": {
       "median": 400.0,
-      "avg": 533.98,
+      "avg": 694.46,
       "min": 180.0,
       "max": 3000.0,
-      "samples": 98
+      "samples": 121
     },
     "tofu": {
       "median": 5.0,
@@ -100,6 +155,45 @@
       "min": 5.0,
       "max": 5.0,
       "samples": 3
+    }
+  },
+  "crystal_staff": {
+    "gold": {
+      "median": 400.0,
+      "avg": 688.89,
+      "min": 200.0,
+      "max": 10000.0,
+      "samples": 126
+    },
+    "tofu": {
+      "median": 25.0,
+      "avg": 25.0,
+      "min": 25.0,
+      "max": 25.0,
+      "samples": 2
+    }
+  },
+  "knight_blade": {
+    "gold": {
+      "median": 400.0,
+      "avg": 645.89,
+      "min": 3.0,
+      "max": 5000.0,
+      "samples": 186
+    },
+    "energia": {
+      "median": 1.0,
+      "avg": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "samples": 9
+    },
+    "tofu": {
+      "median": 15.0,
+      "avg": 10.5,
+      "min": 2.0,
+      "max": 15.0,
+      "samples": 8
     }
   },
   "atk_tonic": {
@@ -146,10 +240,10 @@
   "crit_tonic": {
     "gold": {
       "median": 120.0,
-      "avg": 334.61,
+      "avg": 335.92,
       "min": 40.0,
       "max": 1500.0,
-      "samples": 180
+      "samples": 179
     },
     "tofu": {
       "median": 1.0,
@@ -162,24 +256,17 @@
   "health_potion": {
     "gold": {
       "median": 135.0,
-      "avg": 2019.48,
-      "min": 30.0,
+      "avg": 2018.24,
+      "min": 19.0,
       "max": 10000.0,
-      "samples": 418
-    },
-    "energia": {
-      "median": 5.0,
-      "avg": 5.0,
-      "min": 5.0,
-      "max": 5.0,
-      "samples": 1
+      "samples": 420
     },
     "tofu": {
       "median": 1.0,
-      "avg": 1.4,
+      "avg": 1.52,
       "min": 1.0,
-      "max": 4.0,
-      "samples": 68
+      "max": 10.0,
+      "samples": 69
     }
   },
   "leather_armor": {
@@ -191,199 +278,13 @@
       "samples": 21
     }
   },
-  "wooden_shield": {
-    "gold": {
-      "median": 100.0,
-      "avg": 1010.77,
-      "min": 50.0,
-      "max": 4000.0,
-      "samples": 26
-    },
-    "tofu": {
-      "median": 1.0,
-      "avg": 1.0,
-      "min": 1.0,
-      "max": 1.0,
-      "samples": 6
-    }
-  },
-  "steel_shield": {
-    "gold": {
-      "median": 200.0,
-      "avg": 241.0,
-      "min": 60.0,
-      "max": 1000.0,
-      "samples": 89
-    },
-    "tofu": {
-      "median": 5.0,
-      "avg": 5.0,
-      "min": 5.0,
-      "max": 5.0,
-      "samples": 2
-    }
-  },
-  "longbow": {
-    "gold": {
-      "median": 300.0,
-      "avg": 831.01,
-      "min": 80.0,
-      "max": 8000.0,
-      "samples": 78
-    },
-    "tofu": {
-      "median": 2.0,
-      "avg": 2.0,
-      "min": 2.0,
-      "max": 2.0,
-      "samples": 1
-    }
-  },
-  "battle_axe": {
-    "gold": {
-      "median": 150.0,
-      "avg": 437.62,
-      "min": 2.0,
-      "max": 3000.0,
-      "samples": 21
-    },
-    "tofu": {
-      "median": 10.0,
-      "avg": 10.0,
-      "min": 10.0,
-      "max": 10.0,
-      "samples": 3
-    }
-  },
-  "tower_shield": {
-    "gold": {
-      "median": 400.0,
-      "avg": 540.25,
-      "min": 5.0,
-      "max": 3000.0,
-      "samples": 121
-    },
-    "energia": {
-      "median": 1.0,
-      "avg": 417.5,
-      "min": 1.0,
-      "max": 2500.0,
-      "samples": 6
-    },
-    "tofu": {
-      "median": 6.5,
-      "avg": 6.5,
-      "min": 3.0,
-      "max": 10.0,
-      "samples": 2
-    }
-  },
-  "leather_boots": {
-    "gold": {
-      "median": 6000.0,
-      "avg": 4083.67,
-      "min": 4.0,
-      "max": 6000.0,
-      "samples": 12
-    },
-    "tofu": {
-      "median": 1.0,
-      "avg": 3.84,
-      "min": 1.0,
-      "max": 60.0,
-      "samples": 25
-    },
-    "energia": {
-      "median": 5.0,
-      "avg": 5.0,
-      "min": 5.0,
-      "max": 5.0,
-      "samples": 2
-    }
-  },
-  "mage_staff": {
-    "gold": {
-      "median": 200.0,
-      "avg": 408.94,
-      "min": 4.0,
-      "max": 5000.0,
-      "samples": 66
-    },
-    "tofu": {
-      "median": 2.5,
-      "avg": 2.5,
-      "min": 2.0,
-      "max": 3.0,
-      "samples": 2
-    }
-  },
-  "knight_blade": {
-    "gold": {
-      "median": 400.0,
-      "avg": 480.46,
-      "min": 3.0,
-      "max": 2000.0,
-      "samples": 162
-    },
-    "energia": {
-      "median": 1.0,
-      "avg": 1.0,
-      "min": 1.0,
-      "max": 1.0,
-      "samples": 9
-    },
-    "tofu": {
-      "median": 15.0,
-      "avg": 10.5,
-      "min": 2.0,
-      "max": 15.0,
-      "samples": 8
-    }
-  },
-  "silver_ring": {
-    "gold": {
-      "median": 10000.0,
-      "avg": 9662.53,
-      "min": 25.0,
-      "max": 25000.0,
-      "samples": 361
-    },
-    "tofu": {
-      "median": 2.0,
-      "avg": 3.75,
-      "min": 1.0,
-      "max": 600.0,
-      "samples": 652
-    },
-    "energia": {
-      "median": 8.0,
-      "avg": 79.83,
-      "min": 1.0,
-      "max": 4600.0,
-      "samples": 69
-    },
-    "chave": {
-      "median": 1.0,
-      "avg": 1.53,
-      "min": 1.0,
-      "max": 3.0,
-      "samples": 126
-    },
-    "poeira": {
-      "median": 2.0,
-      "avg": 2.12,
-      "min": 2.0,
-      "max": 3.0,
-      "samples": 8
-    }
-  },
   "brass_ring": {
     "gold": {
-      "median": 5000.0,
-      "avg": 5047.06,
+      "median": 2000.0,
+      "avg": 3960.11,
       "min": 200.0,
-      "max": 10000.0,
-      "samples": 68
+      "max": 18000.0,
+      "samples": 183
     },
     "energia": {
       "median": 5.0,
@@ -407,13 +308,206 @@
       "samples": 16
     }
   },
+  "leather_boots": {
+    "gold": {
+      "median": 1000.0,
+      "avg": 2973.89,
+      "min": 4.0,
+      "max": 6000.0,
+      "samples": 19
+    },
+    "tofu": {
+      "median": 1.0,
+      "avg": 3.84,
+      "min": 1.0,
+      "max": 60.0,
+      "samples": 25
+    },
+    "energia": {
+      "median": 5.0,
+      "avg": 5.0,
+      "min": 5.0,
+      "max": 5.0,
+      "samples": 2
+    }
+  },
+  "longbow": {
+    "gold": {
+      "median": 300.0,
+      "avg": 919.76,
+      "min": 80.0,
+      "max": 8000.0,
+      "samples": 87
+    },
+    "tofu": {
+      "median": 2.0,
+      "avg": 2.0,
+      "min": 2.0,
+      "max": 2.0,
+      "samples": 1
+    }
+  },
+  "wooden_shield": {
+    "gold": {
+      "median": 100.0,
+      "avg": 1010.77,
+      "min": 50.0,
+      "max": 4000.0,
+      "samples": 26
+    },
+    "tofu": {
+      "median": 1.0,
+      "avg": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "samples": 6
+    }
+  },
+  "steel_shield": {
+    "gold": {
+      "median": 200.0,
+      "avg": 249.43,
+      "min": 60.0,
+      "max": 1000.0,
+      "samples": 90
+    },
+    "tofu": {
+      "median": 5.0,
+      "avg": 5.0,
+      "min": 5.0,
+      "max": 5.0,
+      "samples": 2
+    }
+  },
+  "battle_axe": {
+    "gold": {
+      "median": 200.0,
+      "avg": 23749.64,
+      "min": 2.0,
+      "max": 500000.0,
+      "samples": 28
+    },
+    "tofu": {
+      "median": 10.0,
+      "avg": 10.0,
+      "min": 10.0,
+      "max": 10.0,
+      "samples": 3
+    }
+  },
+  "dungeon_key": {
+    "gold": {
+      "median": 12000.0,
+      "avg": 12956.95,
+      "min": 400.0,
+      "max": 100000.0,
+      "samples": 223
+    },
+    "tofu": {
+      "median": 2.0,
+      "avg": 6.08,
+      "min": 1.0,
+      "max": 140.0,
+      "samples": 886
+    },
+    "energia": {
+      "median": 3.0,
+      "avg": 4.9,
+      "min": 3.0,
+      "max": 30.0,
+      "samples": 29
+    },
+    "chave": {
+      "median": 2.0,
+      "avg": 1.88,
+      "min": 1.0,
+      "max": 4.0,
+      "samples": 34
+    }
+  },
+  "mage_staff": {
+    "gold": {
+      "median": 250.0,
+      "avg": 506.9,
+      "min": 4.0,
+      "max": 5000.0,
+      "samples": 71
+    },
+    "tofu": {
+      "median": 2.5,
+      "avg": 2.5,
+      "min": 2.0,
+      "max": 3.0,
+      "samples": 2
+    }
+  },
+  "platinum_amulet": {
+    "gold": {
+      "median": 5000.0,
+      "avg": 10873.18,
+      "min": 25.0,
+      "max": 2000000.0,
+      "samples": 644
+    },
+    "tofu": {
+      "median": 2.0,
+      "avg": 2.19,
+      "min": 1.0,
+      "max": 30.0,
+      "samples": 821
+    },
+    "energia": {
+      "median": 5.0,
+      "avg": 9.18,
+      "min": 3.0,
+      "max": 25.0,
+      "samples": 44
+    },
+    "chave": {
+      "median": 1.0,
+      "avg": 1.3,
+      "min": 1.0,
+      "max": 3.0,
+      "samples": 83
+    }
+  },
+  "silver_ring": {
+    "gold": {
+      "median": 10000.0,
+      "avg": 9752.04,
+      "min": 25.0,
+      "max": 30000.0,
+      "samples": 526
+    },
+    "tofu": {
+      "median": 2.0,
+      "avg": 3.66,
+      "min": 1.0,
+      "max": 600.0,
+      "samples": 643
+    },
+    "energia": {
+      "median": 8.0,
+      "avg": 12.68,
+      "min": 1.0,
+      "max": 25.0,
+      "samples": 74
+    },
+    "chave": {
+      "median": 1.0,
+      "avg": 1.53,
+      "min": 1.0,
+      "max": 3.0,
+      "samples": 126
+    }
+  },
   "hydra_war_amulet": {
     "gold": {
-      "median": 90000.0,
-      "avg": 75275.86,
+      "median": 100000.0,
+      "avg": 78327.27,
       "min": 1000.0,
-      "max": 100000.0,
-      "samples": 29
+      "max": 110000.0,
+      "samples": 55
     },
     "tofu": {
       "median": 20.0,
@@ -437,59 +531,87 @@
       "samples": 42
     }
   },
-  "crystal_staff": {
+  "grave_mag_robe": {
     "gold": {
-      "median": 400.0,
-      "avg": 464.76,
-      "min": 200.0,
-      "max": 1200.0,
-      "samples": 105
+      "median": 1000.0,
+      "avg": 1563.28,
+      "min": 1.0,
+      "max": 5000.0,
+      "samples": 197
+    },
+    "tofu": {
+      "median": 32.0,
+      "avg": 58.94,
+      "min": 1.0,
+      "max": 150.0,
+      "samples": 190
+    },
+    "energia": {
+      "median": 2.0,
+      "avg": 26.84,
+      "min": 2.0,
+      "max": 120.0,
+      "samples": 19
+    },
+    "chave": {
+      "median": 20.0,
+      "avg": 15.67,
+      "min": 7.0,
+      "max": 20.0,
+      "samples": 6
+    }
+  },
+  "grave_mag_talisman": {
+    "gold": {
+      "median": 1000.0,
+      "avg": 1457.74,
+      "min": 1.0,
+      "max": 10000.0,
+      "samples": 193
     },
     "tofu": {
       "median": 25.0,
-      "avg": 25.0,
-      "min": 25.0,
-      "max": 25.0,
-      "samples": 2
-    }
-  },
-  "plate_armor": {
-    "gold": {
-      "median": 400.0,
-      "avg": 713.77,
-      "min": 9.0,
-      "max": 8000.0,
-      "samples": 158
+      "avg": 23.56,
+      "min": 1.0,
+      "max": 40.0,
+      "samples": 45
     },
-    "tofu": {
-      "median": 20.0,
-      "avg": 21.8,
+    "energia": {
+      "median": 4.0,
+      "avg": 7.56,
       "min": 2.0,
-      "max": 60.0,
-      "samples": 35
+      "max": 25.0,
+      "samples": 16
+    },
+    "poeira": {
+      "median": 10.0,
+      "avg": 10.0,
+      "min": 10.0,
+      "max": 10.0,
+      "samples": 2
     }
   },
   "bone_key": {
     "tofu": {
       "median": 2.0,
-      "avg": 3.52,
+      "avg": 3.55,
       "min": 1.0,
       "max": 32.0,
-      "samples": 1429
+      "samples": 1414
     },
     "gold": {
       "median": 10000.0,
-      "avg": 19250.95,
+      "avg": 17636.08,
       "min": 500.0,
-      "max": 65000.0,
-      "samples": 528
+      "max": 70000.0,
+      "samples": 643
     },
     "energia": {
       "median": 6.0,
-      "avg": 6.24,
+      "avg": 6.3,
       "min": 3.0,
       "max": 40.0,
-      "samples": 197
+      "samples": 201
     },
     "chave": {
       "median": 1.0,
@@ -497,36 +619,29 @@
       "min": 1.0,
       "max": 25000.0,
       "samples": 187
-    },
-    "poeira": {
-      "median": 1.0,
-      "avg": 1.0,
-      "min": 1.0,
-      "max": 1.0,
-      "samples": 1
     }
   },
   "rock_mago_slayer": {
     "gold": {
       "median": 7000.0,
-      "avg": 31601.81,
+      "avg": 32091.68,
       "min": 10.0,
       "max": 550000.0,
-      "samples": 315
+      "samples": 328
     },
     "energia": {
       "median": 3.0,
-      "avg": 6986.83,
+      "avg": 3.88,
       "min": 1.0,
-      "max": 200000.0,
-      "samples": 29
+      "max": 30.0,
+      "samples": 26
     },
     "tofu": {
       "median": 3.0,
-      "avg": 11.95,
+      "avg": 19.33,
       "min": 1.0,
-      "max": 100.0,
-      "samples": 146
+      "max": 400.0,
+      "samples": 156
     },
     "chave": {
       "median": 17.0,
@@ -536,27 +651,36 @@
       "samples": 18
     }
   },
+  "forest_guerreiro_slayer": {
+    "gold": {
+      "median": 30000.0,
+      "avg": 30000.0,
+      "min": 30000.0,
+      "max": 30000.0,
+      "samples": 1
+    }
+  },
   "culpa_altheryn_f": {
     "gold": {
-      "median": 5000.0,
-      "avg": 8843.91,
+      "median": 10000.0,
+      "avg": 11228.8,
       "min": 5.0,
-      "max": 30000.0,
-      "samples": 493
+      "max": 45000.0,
+      "samples": 717
     },
     "tofu": {
       "median": 4.0,
-      "avg": 3.89,
+      "avg": 3.78,
       "min": 1.0,
       "max": 26.0,
-      "samples": 1117
+      "samples": 1112
     },
     "energia": {
-      "median": 12.0,
-      "avg": 12.63,
-      "min": 2.0,
+      "median": 4.0,
+      "avg": 8.47,
+      "min": 3.0,
       "max": 25.0,
-      "samples": 35
+      "samples": 68
     },
     "chave": {
       "median": 3.0,
@@ -568,41 +692,48 @@
   },
   "grave_arc_leather": {
     "gold": {
-      "median": 1000.0,
-      "avg": 34798.89,
+      "median": 1500.0,
+      "avg": 116031.43,
       "min": 350.0,
-      "max": 800000.0,
-      "samples": 144
+      "max": 5200000.0,
+      "samples": 224
     },
     "tofu": {
       "median": 35.0,
-      "avg": 69.48,
+      "avg": 69.77,
       "min": 1.0,
       "max": 250.0,
-      "samples": 378
+      "samples": 376
     },
     "energia": {
       "median": 60.0,
-      "avg": 48.23,
+      "avg": 47.84,
       "min": 4.0,
-      "max": 60.0,
-      "samples": 47
+      "max": 70.0,
+      "samples": 56
+    },
+    "poeira": {
+      "median": 4.0,
+      "avg": 6.0,
+      "min": 4.0,
+      "max": 14.0,
+      "samples": 5
     }
   },
   "grave_war_lichblade": {
     "tofu": {
       "median": 25.0,
-      "avg": 35.37,
+      "avg": 35.4,
       "min": 3.0,
       "max": 350.0,
-      "samples": 1035
+      "samples": 1033
     },
     "gold": {
       "median": 100000.0,
-      "avg": 88909.85,
+      "avg": 94379.74,
       "min": 5.0,
       "max": 150000.0,
-      "samples": 33
+      "samples": 58
     },
     "chave": {
       "median": 23.0,
@@ -612,27 +743,27 @@
       "samples": 141
     },
     "energia": {
-      "median": 135.0,
-      "avg": 90.82,
-      "min": 25.0,
+      "median": 45.0,
+      "avg": 77.52,
+      "min": 15.0,
       "max": 150.0,
-      "samples": 146
+      "samples": 202
     },
     "poeira": {
-      "median": 2.0,
-      "avg": 2.0,
-      "min": 2.0,
+      "median": 1.5,
+      "avg": 1.5,
+      "min": 1.0,
       "max": 2.0,
-      "samples": 5
+      "samples": 2
     }
   },
   "grave_war_sword": {
     "gold": {
-      "median": 800.0,
-      "avg": 19554.62,
+      "median": 1000.0,
+      "avg": 28409.1,
       "min": 1.0,
       "max": 800000.0,
-      "samples": 174
+      "samples": 308
     },
     "tofu": {
       "median": 19.0,
@@ -640,36 +771,52 @@
       "min": 1.0,
       "max": 40.0,
       "samples": 38
+    },
+    "poeira": {
+      "median": 2.0,
+      "avg": 2.0,
+      "min": 2.0,
+      "max": 2.0,
+      "samples": 3
+    }
+  },
+  "energy_potion_pack": {
+    "gold": {
+      "median": 2000.0,
+      "avg": 539741.69,
+      "min": 4.0,
+      "max": 12500000.0,
+      "samples": 230
+    },
+    "tofu": {
+      "median": 1.0,
+      "avg": 46.11,
+      "min": 1.0,
+      "max": 3000.0,
+      "samples": 394
+    },
+    "energia": {
+      "median": 4.0,
+      "avg": 31.27,
+      "min": 1.0,
+      "max": 1500.0,
+      "samples": 121
     }
   },
   "hydra_arc_amulet": {
     "tofu": {
       "median": 20.0,
-      "avg": 34.13,
+      "avg": 34.16,
       "min": 1.0,
       "max": 300.0,
-      "samples": 854
+      "samples": 852
     },
     "gold": {
-      "median": 150000.0,
-      "avg": 189619.13,
+      "median": 75000.0,
+      "avg": 141717.42,
       "min": 180.0,
       "max": 600000.0,
-      "samples": 23
-    },
-    "poeira": {
-      "median": 4.0,
-      "avg": 4.0,
-      "min": 1.0,
-      "max": 7.0,
-      "samples": 2
-    },
-    "energia": {
-      "median": 120.0,
-      "avg": 175.34,
-      "min": 3.0,
-      "max": 600.0,
-      "samples": 83
+      "samples": 31
     },
     "chave": {
       "median": 7.0,
@@ -677,22 +824,29 @@
       "min": 5.0,
       "max": 8.0,
       "samples": 23
+    },
+    "energia": {
+      "median": 120.0,
+      "avg": 166.7,
+      "min": 15.0,
+      "max": 600.0,
+      "samples": 88
     }
   },
   "boots_of_haste": {
     "tofu": {
       "median": 45.0,
-      "avg": 69.02,
+      "avg": 68.98,
       "min": 5.0,
       "max": 750.0,
-      "samples": 1223
+      "samples": 1224
     },
     "gold": {
-      "median": 200000.0,
-      "avg": 117172.41,
+      "median": 175000.0,
+      "avg": 118266.67,
       "min": 7000.0,
       "max": 225000.0,
-      "samples": 29
+      "samples": 30
     },
     "chave": {
       "median": 8.0,
@@ -703,70 +857,84 @@
     },
     "energia": {
       "median": 45.0,
-      "avg": 86.34,
-      "min": 45.0,
+      "avg": 82.51,
+      "min": 25.0,
       "max": 210.0,
-      "samples": 71
+      "samples": 90
+    },
+    "poeira": {
+      "median": 3.0,
+      "avg": 3.0,
+      "min": 3.0,
+      "max": 3.0,
+      "samples": 1
     }
   },
   "hydra_war_ring": {
     "tofu": {
       "median": 15.0,
-      "avg": 17.79,
+      "avg": 17.71,
       "min": 2.0,
       "max": 90.0,
-      "samples": 1048
+      "samples": 1058
     },
     "gold": {
       "median": 90000.0,
-      "avg": 79303.03,
+      "avg": 74608.7,
       "min": 400.0,
-      "max": 100000.0,
-      "samples": 33
-    },
-    "energia": {
-      "median": 55.0,
-      "avg": 52.08,
-      "min": 30.0,
-      "max": 120.0,
-      "samples": 12
+      "max": 110000.0,
+      "samples": 46
     },
     "chave": {
-      "median": 8.0,
-      "avg": 11.75,
+      "median": 16.0,
+      "avg": 13.73,
       "min": 5.0,
       "max": 20.0,
-      "samples": 8
-    }
-  },
-  "energy_potion_pack": {
-    "gold": {
-      "median": 2500.0,
-      "avg": 89990.91,
-      "min": 200.0,
-      "max": 2500000.0,
-      "samples": 121
+      "samples": 15
     },
     "energia": {
-      "median": 5.0,
-      "avg": 44233.76,
-      "min": 1.0,
-      "max": 2500000.0,
-      "samples": 231
-    },
-    "tofu": {
-      "median": 1.0,
-      "avg": 46.26,
-      "min": 1.0,
-      "max": 3000.0,
-      "samples": 393
+      "median": 38.0,
+      "avg": 46.32,
+      "min": 30.0,
+      "max": 120.0,
+      "samples": 19
     },
     "poeira": {
-      "median": 3.0,
-      "avg": 3.0,
-      "min": 2.0,
-      "max": 4.0,
-      "samples": 2
+      "median": 1.0,
+      "avg": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "samples": 1
+    }
+  },
+  "hydra_mag_amulet": {
+    "gold": {
+      "median": 100000.0,
+      "avg": 102804.51,
+      "min": 3000.0,
+      "max": 175000.0,
+      "samples": 133
+    },
+    "tofu": {
+      "median": 20.0,
+      "avg": 18.97,
+      "min": 1.0,
+      "max": 100.0,
+      "samples": 949
+    },
+    "energia": {
+      "median": 30.0,
+      "avg": 41.63,
+      "min": 3.0,
+      "max": 125.0,
+      "samples": 73
+    },
+    "chave": {
+      "median": 10.0,
+      "avg": 12.36,
+      "min": 8.0,
+      "max": 25.0,
+      "samples": 42
     }
   },
   "hydra_guerreiro_slayer": {
@@ -788,151 +956,68 @@
   "stardust": {
     "tofu": {
       "median": 5.0,
-      "avg": 8.35,
+      "avg": 9.57,
       "min": 1.0,
       "max": 400.0,
-      "samples": 1862
+      "samples": 2142
     },
     "gold": {
       "median": 25000.0,
-      "avg": 39310.21,
+      "avg": 36757.12,
       "min": 3.0,
-      "max": 300000.0,
-      "samples": 346
-    },
-    "poeira": {
-      "median": 5.0,
-      "avg": 8587.0,
-      "min": 1.0,
-      "max": 60000.0,
-      "samples": 149
+      "max": 360000.0,
+      "samples": 524
     },
     "energia": {
       "median": 15.0,
-      "avg": 15.01,
+      "avg": 30.61,
       "min": 10.0,
-      "max": 18.0,
-      "samples": 104
+      "max": 150.0,
+      "samples": 236
     },
     "chave": {
       "median": 5.0,
-      "avg": 14.44,
-      "min": 3.0,
+      "avg": 14.23,
+      "min": 2.0,
       "max": 100.0,
-      "samples": 59
-    }
-  },
-  "grave_mag_robe": {
-    "tofu": {
-      "median": 32.0,
-      "avg": 59.24,
-      "min": 1.0,
-      "max": 150.0,
-      "samples": 189
-    },
-    "gold": {
-      "median": 800.0,
-      "avg": 1377.54,
-      "min": 1.0,
-      "max": 5000.0,
-      "samples": 127
-    },
-    "energia": {
-      "median": 120.0,
-      "avg": 120.0,
-      "min": 120.0,
-      "max": 120.0,
-      "samples": 4
-    },
-    "chave": {
-      "median": 20.0,
-      "avg": 15.67,
-      "min": 7.0,
-      "max": 20.0,
-      "samples": 6
-    }
-  },
-  "sapphire_amulet": {
-    "energia": {
-      "median": 8.0,
-      "avg": 7.57,
-      "min": 5.0,
-      "max": 8.0,
-      "samples": 7
-    },
-    "tofu": {
-      "median": 2.0,
-      "avg": 1.68,
-      "min": 1.0,
-      "max": 4.0,
-      "samples": 125
-    },
-    "gold": {
-      "median": 5000.0,
-      "avg": 5917.36,
-      "min": 10.0,
-      "max": 12000.0,
-      "samples": 72
-    }
-  },
-  "grave_mag_talisman": {
-    "tofu": {
-      "median": 25.0,
-      "avg": 25.56,
-      "min": 1.0,
-      "max": 40.0,
-      "samples": 41
-    },
-    "gold": {
-      "median": 900.0,
-      "avg": 1315.35,
-      "min": 1.0,
-      "max": 10000.0,
-      "samples": 150
-    },
-    "energia": {
-      "median": 4.0,
-      "avg": 4.75,
-      "min": 4.0,
-      "max": 6.0,
-      "samples": 8
+      "samples": 60
     }
   },
   "hydra_arc_ring": {
     "tofu": {
       "median": 20.0,
-      "avg": 41.42,
+      "avg": 41.35,
       "min": 3.0,
       "max": 5000.0,
-      "samples": 1390
+      "samples": 1395
     },
     "gold": {
       "median": 100000.0,
-      "avg": 96664.43,
+      "avg": 96092.02,
       "min": 4600.0,
       "max": 150000.0,
-      "samples": 149
+      "samples": 163
     },
     "chave": {
       "median": 7.0,
-      "avg": 9.05,
+      "avg": 9.31,
       "min": 4.0,
       "max": 25.0,
-      "samples": 43
+      "samples": 45
     },
     "energia": {
       "median": 30.0,
-      "avg": 352.22,
+      "avg": 55.23,
       "min": 15.0,
-      "max": 4600.0,
-      "samples": 78
+      "max": 135.0,
+      "samples": 100
     },
     "poeira": {
-      "median": 2.0,
-      "avg": 2.0,
-      "min": 2.0,
-      "max": 2.0,
-      "samples": 1
+      "median": 3.0,
+      "avg": 3.0,
+      "min": 3.0,
+      "max": 3.0,
+      "samples": 2
     }
   },
   "grave_war_plate": {
@@ -944,18 +1029,25 @@
       "samples": 217
     },
     "gold": {
-      "median": 800.0,
-      "avg": 23302.55,
+      "median": 1000.0,
+      "avg": 16406.48,
       "min": 1.0,
       "max": 800000.0,
-      "samples": 198
+      "samples": 294
+    },
+    "poeira": {
+      "median": 16.0,
+      "avg": 16.0,
+      "min": 16.0,
+      "max": 16.0,
+      "samples": 2
     },
     "energia": {
       "median": 25.0,
-      "avg": 23.31,
-      "min": 3.0,
+      "avg": 25.0,
+      "min": 25.0,
       "max": 25.0,
-      "samples": 13
+      "samples": 12
     }
   },
   "grave_war_shield": {
@@ -967,11 +1059,18 @@
       "samples": 18
     },
     "gold": {
-      "median": 800.0,
-      "avg": 29292.27,
+      "median": 1300.0,
+      "avg": 28989.33,
       "min": 1.0,
       "max": 800000.0,
-      "samples": 146
+      "samples": 237
+    },
+    "poeira": {
+      "median": 8.0,
+      "avg": 8.0,
+      "min": 8.0,
+      "max": 8.0,
+      "samples": 1
     },
     "chave": {
       "median": 1.0,
@@ -990,11 +1089,11 @@
       "samples": 152
     },
     "gold": {
-      "median": 1500.0,
-      "avg": 13880.38,
+      "median": 2000.0,
+      "avg": 42297.87,
       "min": 500.0,
-      "max": 800000.0,
-      "samples": 265
+      "max": 2000000.0,
+      "samples": 328
     },
     "energia": {
       "median": 120.0,
@@ -1002,6 +1101,13 @@
       "min": 6.0,
       "max": 120.0,
       "samples": 102
+    },
+    "poeira": {
+      "median": 7.0,
+      "avg": 7.0,
+      "min": 7.0,
+      "max": 7.0,
+      "samples": 1
     },
     "chave": {
       "median": 20.0,
@@ -1059,25 +1165,25 @@
   },
   "iron_boots": {
     "tofu": {
-      "median": 2.0,
+      "median": 1.5,
       "avg": 2.13,
       "min": 1.0,
       "max": 35.0,
-      "samples": 505
+      "samples": 508
     },
     "gold": {
       "median": 5000.0,
-      "avg": 7824.6,
+      "avg": 22360.97,
       "min": 25.0,
-      "max": 25000.0,
-      "samples": 186
+      "max": 4500000.0,
+      "samples": 303
     },
     "energia": {
-      "median": 10.0,
-      "avg": 7.67,
+      "median": 5.0,
+      "avg": 6.0,
       "min": 1.0,
       "max": 12.0,
-      "samples": 3
+      "samples": 5
     },
     "chave": {
       "median": 1.0,
@@ -1089,69 +1195,55 @@
   },
   "hydra_mag_ring": {
     "tofu": {
-      "median": 15.0,
-      "avg": 23.94,
+      "median": 17.0,
+      "avg": 24.37,
       "min": 1.0,
       "max": 180.0,
-      "samples": 1281
+      "samples": 1296
     },
     "energia": {
       "median": 30.0,
-      "avg": 36.9,
-      "min": 4.0,
-      "max": 125.0,
-      "samples": 72
+      "avg": 50.14,
+      "min": 15.0,
+      "max": 150.0,
+      "samples": 97
     },
     "chave": {
       "median": 8.0,
-      "avg": 14.36,
+      "avg": 14.0,
       "min": 1.0,
       "max": 40.0,
-      "samples": 76
+      "samples": 81
     },
     "gold": {
-      "median": 110000.0,
-      "avg": 97751.88,
+      "median": 122500.0,
+      "avg": 104098.8,
       "min": 55.0,
       "max": 350000.0,
-      "samples": 69
-    },
-    "poeira": {
-      "median": 2.0,
-      "avg": 2.0,
-      "min": 2.0,
-      "max": 2.0,
-      "samples": 8
+      "samples": 100
     }
   },
   "amulet_of_peace": {
+    "gold": {
+      "median": 27000.0,
+      "avg": 31768.61,
+      "min": 22.0,
+      "max": 400000.0,
+      "samples": 1331
+    },
     "tofu": {
       "median": 5.0,
-      "avg": 5.49,
+      "avg": 69.37,
       "min": 3.0,
-      "max": 15.0,
-      "samples": 934
-    },
-    "gold": {
-      "median": 25000.0,
-      "avg": 28361.06,
-      "min": 22.0,
-      "max": 200000.0,
-      "samples": 680
+      "max": 30000.0,
+      "samples": 939
     },
     "energia": {
       "median": 15.0,
-      "avg": 15.05,
+      "avg": 14.73,
       "min": 10.0,
       "max": 25.0,
-      "samples": 99
-    },
-    "poeira": {
-      "median": 10.0,
-      "avg": 10.0,
-      "min": 10.0,
-      "max": 10.0,
-      "samples": 1
+      "samples": 125
     },
     "chave": {
       "median": 3.0,
@@ -1171,10 +1263,10 @@
     },
     "gold": {
       "median": 30000.0,
-      "avg": 27727.27,
+      "avg": 26666.67,
       "min": 10000.0,
       "max": 50000.0,
-      "samples": 11
+      "samples": 12
     },
     "chave": {
       "median": 8.0,
@@ -1193,11 +1285,11 @@
   },
   "elixir_xp": {
     "tofu": {
-      "median": 4.0,
-      "avg": 3.62,
+      "median": 3.0,
+      "avg": 3.55,
       "min": 2.0,
       "max": 10.0,
-      "samples": 71
+      "samples": 80
     },
     "energia": {
       "median": 10.0,
@@ -1208,10 +1300,10 @@
     },
     "gold": {
       "median": 11000.0,
-      "avg": 27428.57,
+      "avg": 37764.71,
       "min": 11000.0,
-      "max": 65000.0,
-      "samples": 14
+      "max": 120000.0,
+      "samples": 17
     },
     "chave": {
       "median": 6.0,
@@ -1221,43 +1313,13 @@
       "samples": 1
     }
   },
-  "platinum_amulet": {
-    "tofu": {
-      "median": 2.0,
-      "avg": 2.2,
-      "min": 1.0,
-      "max": 30.0,
-      "samples": 814
-    },
-    "energia": {
-      "median": 15.0,
-      "avg": 13.76,
-      "min": 3.0,
-      "max": 25.0,
-      "samples": 21
-    },
-    "gold": {
-      "median": 5000.0,
-      "avg": 7535.21,
-      "min": 25.0,
-      "max": 25000.0,
-      "samples": 492
-    },
-    "chave": {
-      "median": 1.0,
-      "avg": 1.3,
-      "min": 1.0,
-      "max": 3.0,
-      "samples": 83
-    }
-  },
   "anel_guardiao_dourado": {
     "tofu": {
       "median": 25.0,
-      "avg": 28.39,
+      "avg": 28.5,
       "min": 10.0,
       "max": 70.0,
-      "samples": 166
+      "samples": 165
     },
     "chave": {
       "median": 15.0,
@@ -1268,26 +1330,56 @@
     },
     "energia": {
       "median": 45.0,
-      "avg": 45.0,
-      "min": 45.0,
+      "avg": 44.5,
+      "min": 36.0,
       "max": 45.0,
-      "samples": 17
+      "samples": 18
+    }
+  },
+  "boots_solar_step": {
+    "gold": {
+      "median": 25000.0,
+      "avg": 63217.39,
+      "min": 15000.0,
+      "max": 500000.0,
+      "samples": 276
+    },
+    "tofu": {
+      "median": 8.0,
+      "avg": 26.2,
+      "min": 1.0,
+      "max": 270.0,
+      "samples": 1473
     },
     "poeira": {
-      "median": 2.0,
-      "avg": 2.0,
+      "median": 3.0,
+      "avg": 3.0,
+      "min": 1.0,
+      "max": 5.0,
+      "samples": 2
+    },
+    "energia": {
+      "median": 20.0,
+      "avg": 25.6,
+      "min": 3.0,
+      "max": 75.0,
+      "samples": 163
+    },
+    "chave": {
+      "median": 5.0,
+      "avg": 4.14,
       "min": 2.0,
-      "max": 2.0,
-      "samples": 23
+      "max": 5.0,
+      "samples": 98
     }
   },
   "grave_arc_ossuary_bow": {
     "tofu": {
-      "median": 45.0,
-      "avg": 101.21,
+      "median": 50.0,
+      "avg": 101.48,
       "min": 1.0,
       "max": 600.0,
-      "samples": 1011
+      "samples": 1006
     },
     "gold": {
       "median": 7000.0,
@@ -1298,10 +1390,10 @@
     },
     "energia": {
       "median": 360.0,
-      "avg": 307.84,
-      "min": 60.0,
+      "avg": 225.64,
+      "min": 24.0,
       "max": 360.0,
-      "samples": 58
+      "samples": 83
     },
     "chave": {
       "median": 60.0,
@@ -1311,20 +1403,27 @@
       "samples": 71
     },
     "poeira": {
-      "median": 9.0,
-      "avg": 7.33,
+      "median": 4.0,
+      "avg": 4.0,
       "min": 4.0,
-      "max": 9.0,
-      "samples": 3
+      "max": 4.0,
+      "samples": 7
     }
   },
   "shadow_knight_mago": {
     "tofu": {
       "median": 50.0,
-      "avg": 87.7,
+      "avg": 86.18,
       "min": 10.0,
       "max": 300.0,
-      "samples": 37
+      "samples": 38
+    },
+    "energia": {
+      "median": 60.0,
+      "avg": 60.0,
+      "min": 60.0,
+      "max": 60.0,
+      "samples": 1
     }
   },
   "culpa_altheryn_m": {
@@ -1336,11 +1435,11 @@
       "samples": 667
     },
     "gold": {
-      "median": 40000.0,
-      "avg": 29297.68,
+      "median": 25000.0,
+      "avg": 27220.82,
       "min": 300.0,
       "max": 50000.0,
-      "samples": 302
+      "samples": 389
     },
     "energia": {
       "median": 25.0,
@@ -1348,6 +1447,13 @@
       "min": 6.0,
       "max": 25.0,
       "samples": 10
+    },
+    "poeira": {
+      "median": 6.0,
+      "avg": 6.0,
+      "min": 6.0,
+      "max": 6.0,
+      "samples": 4
     },
     "chave": {
       "median": 4.0,
@@ -1366,20 +1472,80 @@
       "samples": 11
     }
   },
+  "magic_hammer": {
+    "gold": {
+      "median": 75000.0,
+      "avg": 75489.28,
+      "min": 80.0,
+      "max": 520000.0,
+      "samples": 1369
+    },
+    "tofu": {
+      "median": 12.0,
+      "avg": 11.21,
+      "min": 1.0,
+      "max": 70.0,
+      "samples": 1328
+    },
+    "energia": {
+      "median": 21.0,
+      "avg": 23.25,
+      "min": 15.0,
+      "max": 80.0,
+      "samples": 104
+    },
+    "chave": {
+      "median": 4.0,
+      "avg": 4.62,
+      "min": 3.0,
+      "max": 8.0,
+      "samples": 21
+    }
+  },
+  "super_atk_tonic": {
+    "gold": {
+      "median": 1500.0,
+      "avg": 3156.64,
+      "min": 550.0,
+      "max": 15000.0,
+      "samples": 211
+    },
+    "tofu": {
+      "median": 1.0,
+      "avg": 1.1,
+      "min": 1.0,
+      "max": 5.0,
+      "samples": 283
+    },
+    "energia": {
+      "median": 3.0,
+      "avg": 3.16,
+      "min": 3.0,
+      "max": 5.0,
+      "samples": 99
+    },
+    "chave": {
+      "median": 1.0,
+      "avg": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "samples": 8
+    }
+  },
   "grave_arc_buckler": {
     "gold": {
-      "median": 800.0,
-      "avg": 1368.18,
+      "median": 1000.0,
+      "avg": 3318.05,
       "min": 120.0,
-      "max": 30000.0,
-      "samples": 203
+      "max": 40000.0,
+      "samples": 257
     },
     "energia": {
       "median": 60.0,
-      "avg": 51.76,
+      "avg": 63.41,
       "min": 4.0,
       "max": 90.0,
-      "samples": 58
+      "samples": 44
     },
     "tofu": {
       "median": 100.0,
@@ -1392,10 +1558,17 @@
   "arena_skin_pack_beta_m": {
     "tofu": {
       "median": 100.0,
-      "avg": 96.77,
-      "min": 6.0,
+      "avg": 83.79,
+      "min": 5.0,
       "max": 100.0,
-      "samples": 60
+      "samples": 70
+    },
+    "gold": {
+      "median": 30000.0,
+      "avg": 29500.0,
+      "min": 25000.0,
+      "max": 30000.0,
+      "samples": 10
     },
     "chave": {
       "median": 50.0,
@@ -1408,109 +1581,33 @@
   "dragon_black_skin_pack_f": {
     "tofu": {
       "median": 4.0,
-      "avg": 4.0,
-      "min": 4.0,
+      "avg": 3.91,
+      "min": 3.0,
       "max": 4.0,
-      "samples": 1
-    }
-  },
-  "magic_hammer": {
-    "tofu": {
-      "median": 12.0,
-      "avg": 11.19,
-      "min": 1.0,
-      "max": 70.0,
-      "samples": 1331
+      "samples": 11
     },
     "gold": {
-      "median": 75000.0,
-      "avg": 72168.59,
-      "min": 80.0,
-      "max": 520000.0,
-      "samples": 652
-    },
-    "energia": {
-      "median": 21.0,
-      "avg": 25.61,
-      "min": 18.0,
-      "max": 80.0,
-      "samples": 71
-    },
-    "chave": {
-      "median": 4.0,
-      "avg": 4.62,
-      "min": 3.0,
-      "max": 8.0,
-      "samples": 21
-    }
-  },
-  "hydra_mag_amulet": {
-    "tofu": {
-      "median": 20.0,
-      "avg": 19.11,
-      "min": 1.0,
-      "max": 100.0,
-      "samples": 937
-    },
-    "gold": {
-      "median": 100000.0,
-      "avg": 107759.49,
-      "min": 8000.0,
-      "max": 175000.0,
-      "samples": 79
-    },
-    "energia": {
-      "median": 24.0,
-      "avg": 32.93,
-      "min": 3.0,
-      "max": 60.0,
-      "samples": 42
-    },
-    "chave": {
-      "median": 10.0,
-      "avg": 12.66,
-      "min": 8.0,
-      "max": 25.0,
-      "samples": 38
-    }
-  },
-  "dungeon_key": {
-    "gold": {
-      "median": 12000.0,
-      "avg": 11700.58,
-      "min": 400.0,
+      "median": 20000.0,
+      "avg": 19500.0,
+      "min": 15000.0,
       "max": 20000.0,
-      "samples": 173
-    },
-    "tofu": {
-      "median": 2.0,
-      "avg": 6.07,
-      "min": 1.0,
-      "max": 140.0,
-      "samples": 880
-    },
-    "chave": {
-      "median": 2.0,
-      "avg": 1.88,
-      "min": 1.0,
-      "max": 4.0,
-      "samples": 34
-    },
-    "energia": {
-      "median": 3.0,
-      "avg": 4.0,
-      "min": 3.0,
-      "max": 6.0,
-      "samples": 28
+      "samples": 10
     }
   },
   "dungeon_key_pack_10": {
     "tofu": {
       "median": 2.0,
-      "avg": 10.26,
+      "avg": 10.23,
       "min": 1.0,
       "max": 55.0,
-      "samples": 91
+      "samples": 92
+    },
+    "gold": {
+      "median": 600.0,
+      "avg": 40357.22,
+      "min": 15.0,
+      "max": 200000.0,
+      "samples": 9
     },
     "energia": {
       "median": 80.0,
@@ -1518,57 +1615,6 @@
       "min": 30.0,
       "max": 100.0,
       "samples": 10
-    },
-    "gold": {
-      "median": 600.0,
-      "avg": 43173.57,
-      "min": 15.0,
-      "max": 200000.0,
-      "samples": 7
-    },
-    "poeira": {
-      "median": 60.0,
-      "avg": 60.0,
-      "min": 60.0,
-      "max": 60.0,
-      "samples": 1
-    }
-  },
-  "boots_solar_step": {
-    "gold": {
-      "median": 25000.0,
-      "avg": 38038.04,
-      "min": 15000.0,
-      "max": 500000.0,
-      "samples": 184
-    },
-    "tofu": {
-      "median": 8.0,
-      "avg": 26.16,
-      "min": 1.0,
-      "max": 270.0,
-      "samples": 1476
-    },
-    "energia": {
-      "median": 30.0,
-      "avg": 28.27,
-      "min": 5.0,
-      "max": 75.0,
-      "samples": 131
-    },
-    "chave": {
-      "median": 5.0,
-      "avg": 4.14,
-      "min": 2.0,
-      "max": 5.0,
-      "samples": 98
-    },
-    "poeira": {
-      "median": 1.0,
-      "avg": 1.0,
-      "min": 1.0,
-      "max": 1.0,
-      "samples": 3
     }
   },
   "altheryn_backpack": {
@@ -1588,19 +1634,19 @@
     },
     "energia": {
       "median": 75.0,
-      "avg": 74.78,
+      "avg": 71.72,
       "min": 45.0,
       "max": 80.0,
-      "samples": 23
+      "samples": 29
     }
   },
   "grave_mag_wand": {
     "gold": {
-      "median": 1000.0,
-      "avg": 123470.25,
+      "median": 1500.0,
+      "avg": 117445.14,
       "min": 300.0,
       "max": 3500000.0,
-      "samples": 163
+      "samples": 216
     },
     "tofu": {
       "median": 30.0,
@@ -1608,6 +1654,13 @@
       "min": 10.0,
       "max": 35.0,
       "samples": 41
+    },
+    "poeira": {
+      "median": 6.0,
+      "avg": 6.0,
+      "min": 6.0,
+      "max": 6.0,
+      "samples": 1
     },
     "chave": {
       "median": 5.0,
@@ -1635,11 +1688,11 @@
       "samples": 2
     },
     "tofu": {
-      "median": 80.0,
-      "avg": 123.24,
+      "median": 100.0,
+      "avg": 142.89,
       "min": 20.0,
       "max": 350.0,
-      "samples": 165
+      "samples": 237
     },
     "energia": {
       "median": 390.0,
@@ -1652,10 +1705,10 @@
   "desert_eclipse_orb": {
     "tofu": {
       "median": 40.0,
-      "avg": 54.71,
+      "avg": 56.11,
       "min": 2.0,
       "max": 4500.0,
-      "samples": 1209
+      "samples": 1215
     },
     "chave": {
       "median": 25.0,
@@ -1666,26 +1719,26 @@
     },
     "energia": {
       "median": 150.0,
-      "avg": 166.71,
-      "min": 30.0,
+      "avg": 155.43,
+      "min": 27.0,
       "max": 1200.0,
-      "samples": 140
+      "samples": 153
     },
     "gold": {
-      "median": 225000.0,
-      "avg": 1008841.84,
+      "median": 175000.0,
+      "avg": 802719.8,
       "min": 120.0,
       "max": 6000000.0,
-      "samples": 38
+      "samples": 50
     }
   },
   "super_def_tonic": {
     "gold": {
-      "median": 200.0,
-      "avg": 1373.33,
+      "median": 1500.0,
+      "avg": 3692.31,
       "min": 100.0,
-      "max": 5000.0,
-      "samples": 15
+      "max": 15000.0,
+      "samples": 26
     },
     "tofu": {
       "median": 1.0,
@@ -1715,18 +1768,25 @@
   },
   "grave_mag_lichstaff": {
     "tofu": {
-      "median": 30.0,
-      "avg": 48.53,
+      "median": 33.0,
+      "avg": 48.83,
       "min": 4.0,
       "max": 200.0,
-      "samples": 1249
+      "samples": 1271
+    },
+    "gold": {
+      "median": 135000.0,
+      "avg": 138750.0,
+      "min": 20000.0,
+      "max": 300000.0,
+      "samples": 16
     },
     "energia": {
-      "median": 75.0,
-      "avg": 147.23,
-      "min": 15.0,
+      "median": 45.0,
+      "avg": 127.57,
+      "min": 12.0,
       "max": 270.0,
-      "samples": 157
+      "samples": 185
     },
     "chave": {
       "median": 45.0,
@@ -1734,13 +1794,6 @@
       "min": 2.0,
       "max": 45.0,
       "samples": 116
-    },
-    "gold": {
-      "median": 150000.0,
-      "avg": 145454.55,
-      "min": 135000.0,
-      "max": 175000.0,
-      "samples": 11
     }
   },
   "desert_sand_quiver": {
@@ -1753,10 +1806,10 @@
     },
     "energia": {
       "median": 60.0,
-      "avg": 102.81,
+      "avg": 97.83,
       "min": 45.0,
       "max": 180.0,
-      "samples": 48
+      "samples": 53
     },
     "chave": {
       "median": 25.0,
@@ -1764,13 +1817,6 @@
       "min": 10.0,
       "max": 30.0,
       "samples": 26
-    },
-    "poeira": {
-      "median": 2.0,
-      "avg": 2.0,
-      "min": 2.0,
-      "max": 2.0,
-      "samples": 2
     },
     "gold": {
       "median": 225000.0,
@@ -1798,11 +1844,11 @@
       "samples": 816
     },
     "energia": {
-      "median": 150.0,
-      "avg": 138.08,
-      "min": 45.0,
+      "median": 125.0,
+      "avg": 107.34,
+      "min": 36.0,
       "max": 210.0,
-      "samples": 39
+      "samples": 95
     },
     "chave": {
       "median": 25.0,
@@ -1813,26 +1859,33 @@
     },
     "gold": {
       "median": 450000.0,
-      "avg": 440294.12,
-      "min": 180000.0,
+      "avg": 416944.44,
+      "min": 20000.0,
       "max": 750000.0,
-      "samples": 17
+      "samples": 18
     },
     "poeira": {
-      "median": 10.0,
-      "avg": 10.0,
-      "min": 10.0,
-      "max": 10.0,
+      "median": 3.0,
+      "avg": 3.0,
+      "min": 3.0,
+      "max": 3.0,
       "samples": 1
     }
   },
   "ossuary_key": {
     "tofu": {
       "median": 50.0,
-      "avg": 44.83,
+      "avg": 44.7,
       "min": 1.0,
       "max": 400.0,
-      "samples": 367
+      "samples": 365
+    },
+    "gold": {
+      "median": 405000.0,
+      "avg": 231333.33,
+      "min": 5000.0,
+      "max": 405000.0,
+      "samples": 9
     },
     "chave": {
       "median": 17.5,
@@ -1841,26 +1894,19 @@
       "max": 50.0,
       "samples": 16
     },
-    "poeira": {
-      "median": 8.0,
-      "avg": 8.67,
-      "min": 8.0,
-      "max": 10.0,
-      "samples": 3
-    },
     "energia": {
-      "median": 75.0,
-      "avg": 73.92,
-      "min": 1.0,
-      "max": 90.0,
-      "samples": 13
+      "median": 95.0,
+      "avg": 89.12,
+      "min": 50.0,
+      "max": 105.0,
+      "samples": 34
     },
-    "gold": {
-      "median": 405000.0,
-      "avg": 405000.0,
-      "min": 405000.0,
-      "max": 405000.0,
-      "samples": 5
+    "poeira": {
+      "median": 5.0,
+      "avg": 5.0,
+      "min": 5.0,
+      "max": 5.0,
+      "samples": 9
     }
   },
   "abyss_skin_pack_m": {
@@ -1881,11 +1927,11 @@
       "samples": 5
     },
     "gold": {
-      "median": 600.0,
-      "avg": 627.27,
+      "median": 800.0,
+      "avg": 695.31,
       "min": 150.0,
       "max": 2000.0,
-      "samples": 110
+      "samples": 128
     }
   },
   "lanca_solar": {
@@ -1894,21 +1940,21 @@
       "avg": 8.07,
       "min": 1.0,
       "max": 20.0,
-      "samples": 1968
+      "samples": 1966
     },
     "gold": {
-      "median": 20000.0,
-      "avg": 27608.97,
+      "median": 45000.0,
+      "avg": 36878.15,
       "min": 3500.0,
       "max": 100000.0,
-      "samples": 156
+      "samples": 238
     },
     "energia": {
-      "median": 42.0,
-      "avg": 40.25,
-      "min": 15.0,
+      "median": 30.0,
+      "avg": 31.53,
+      "min": 12.0,
       "max": 60.0,
-      "samples": 113
+      "samples": 189
     },
     "chave": {
       "median": 7.0,
@@ -1916,13 +1962,6 @@
       "min": 2.0,
       "max": 10.0,
       "samples": 172
-    },
-    "poeira": {
-      "median": 1.0,
-      "avg": 1.0,
-      "min": 1.0,
-      "max": 1.0,
-      "samples": 2
     }
   },
   "furia_lobo": {
@@ -1931,21 +1970,21 @@
       "avg": 6.37,
       "min": 2.0,
       "max": 25.0,
-      "samples": 513
+      "samples": 515
     },
     "gold": {
       "median": 25000.0,
-      "avg": 32914.93,
-      "min": 300.0,
+      "avg": 28384.62,
+      "min": 10000.0,
       "max": 50000.0,
-      "samples": 67
+      "samples": 104
     },
     "energia": {
       "median": 30.0,
-      "avg": 63.65,
-      "min": 24.0,
+      "avg": 56.33,
+      "min": 5.0,
       "max": 120.0,
-      "samples": 31
+      "samples": 36
     },
     "chave": {
       "median": 5.0,
@@ -1965,24 +2004,24 @@
   "vontade_lich": {
     "tofu": {
       "median": 9.0,
-      "avg": 9.82,
+      "avg": 9.83,
       "min": 1.0,
       "max": 65.0,
-      "samples": 1607
+      "samples": 1604
     },
     "gold": {
       "median": 40000.0,
-      "avg": 45465.12,
-      "min": 15000.0,
+      "avg": 41724.14,
+      "min": 5000.0,
       "max": 120000.0,
-      "samples": 86
+      "samples": 116
     },
     "energia": {
       "median": 45.0,
-      "avg": 45.1,
-      "min": 6.0,
+      "avg": 38.38,
+      "min": 5.0,
       "max": 60.0,
-      "samples": 152
+      "samples": 184
     },
     "chave": {
       "median": 8.0,
@@ -1990,29 +2029,52 @@
       "min": 3.0,
       "max": 10.0,
       "samples": 232
+    }
+  },
+  "orc_arc_armor": {
+    "gold": {
+      "median": 4000.0,
+      "avg": 4000.0,
+      "min": 4000.0,
+      "max": 4000.0,
+      "samples": 1
     },
-    "poeira": {
-      "median": 1.0,
-      "avg": 1.0,
-      "min": 1.0,
-      "max": 1.0,
-      "samples": 8
+    "tofu": {
+      "median": 110.0,
+      "avg": 166.1,
+      "min": 25.0,
+      "max": 500.0,
+      "samples": 109
+    },
+    "chave": {
+      "median": 55.0,
+      "avg": 55.0,
+      "min": 55.0,
+      "max": 55.0,
+      "samples": 3
+    },
+    "energia": {
+      "median": 300.0,
+      "avg": 298.48,
+      "min": 275.0,
+      "max": 340.0,
+      "samples": 23
     }
   },
   "tempestade_areia": {
     "tofu": {
       "median": 15.0,
-      "avg": 16.6,
+      "avg": 16.66,
       "min": 1.0,
       "max": 250.0,
-      "samples": 1980
+      "samples": 1971
     },
     "gold": {
-      "median": 85000.0,
-      "avg": 88609.83,
+      "median": 77500.0,
+      "avg": 85255.15,
       "min": 1500.0,
       "max": 200000.0,
-      "samples": 173
+      "samples": 194
     },
     "chave": {
       "median": 18.0,
@@ -2022,18 +2084,18 @@
       "samples": 219
     },
     "energia": {
-      "median": 105.0,
-      "avg": 85.03,
-      "min": 15.0,
+      "median": 75.0,
+      "avg": 68.13,
+      "min": 10.0,
       "max": 120.0,
-      "samples": 201
+      "samples": 269
     },
     "poeira": {
       "median": 1.0,
-      "avg": 1.08,
+      "avg": 1.0,
       "min": 1.0,
-      "max": 2.0,
-      "samples": 12
+      "max": 1.0,
+      "samples": 2
     }
   },
   "rugido_rochedo": {
@@ -2046,17 +2108,17 @@
     },
     "energia": {
       "median": 40.0,
-      "avg": 40.0,
+      "avg": 43.0,
       "min": 40.0,
-      "max": 40.0,
-      "samples": 7
+      "max": 50.0,
+      "samples": 10
     },
     "gold": {
       "median": 50000.0,
-      "avg": 46818.18,
-      "min": 40000.0,
+      "avg": 44583.33,
+      "min": 15000.0,
       "max": 50000.0,
-      "samples": 22
+      "samples": 24
     },
     "chave": {
       "median": 6.5,
@@ -2083,10 +2145,10 @@
     },
     "energia": {
       "median": 90.0,
-      "avg": 90.0,
-      "min": 90.0,
+      "avg": 70.74,
+      "min": 25.0,
       "max": 90.0,
-      "samples": 33
+      "samples": 47
     },
     "gold": {
       "median": 450000.0,
@@ -2099,17 +2161,17 @@
   "golpe_obelisco": {
     "tofu": {
       "median": 8.0,
-      "avg": 8.64,
+      "avg": 8.65,
       "min": 1.0,
       "max": 30.0,
-      "samples": 1470
+      "samples": 1468
     },
     "gold": {
       "median": 15000.0,
-      "avg": 18994.05,
+      "avg": 25668.37,
       "min": 3000.0,
-      "max": 55000.0,
-      "samples": 84
+      "max": 90000.0,
+      "samples": 98
     },
     "chave": {
       "median": 8.0,
@@ -2120,70 +2182,56 @@
     },
     "energia": {
       "median": 42.0,
-      "avg": 41.08,
-      "min": 30.0,
+      "avg": 35.27,
+      "min": 7.0,
       "max": 45.0,
-      "samples": 101
-    },
-    "poeira": {
-      "median": 1.0,
-      "avg": 1.0,
-      "min": 1.0,
-      "max": 1.0,
-      "samples": 1
+      "samples": 124
     }
   },
   "maldicao_bruxa": {
     "tofu": {
       "median": 4.0,
-      "avg": 4.11,
+      "avg": 4.09,
       "min": 1.0,
       "max": 30.0,
-      "samples": 2057
+      "samples": 2088
     },
     "gold": {
-      "median": 8000.0,
-      "avg": 18215.7,
-      "min": 2700.0,
-      "max": 50000.0,
-      "samples": 446
+      "median": 10000.0,
+      "avg": 101928.88,
+      "min": 1000.0,
+      "max": 5000000.0,
+      "samples": 644
     },
     "energia": {
       "median": 24.0,
-      "avg": 23.98,
-      "min": 15.0,
+      "avg": 20.09,
+      "min": 4.0,
       "max": 40.0,
-      "samples": 140
+      "samples": 183
     },
     "chave": {
       "median": 4.0,
-      "avg": 3.83,
+      "avg": 3.84,
       "min": 1.0,
       "max": 10.0,
-      "samples": 206
-    },
-    "poeira": {
-      "median": 1.0,
-      "avg": 1.0,
-      "min": 1.0,
-      "max": 1.0,
-      "samples": 12
+      "samples": 224
     }
   },
   "picada_aranha": {
     "tofu": {
-      "median": 15.0,
-      "avg": 15.48,
+      "median": 18.0,
+      "avg": 15.55,
       "min": 2.0,
       "max": 30.0,
-      "samples": 665
+      "samples": 656
     },
     "gold": {
-      "median": 75000.0,
-      "avg": 72083.33,
+      "median": 60000.0,
+      "avg": 70681.82,
       "min": 60000.0,
-      "max": 100000.0,
-      "samples": 12
+      "max": 110000.0,
+      "samples": 22
     },
     "chave": {
       "median": 10.0,
@@ -2194,17 +2242,10 @@
     },
     "energia": {
       "median": 60.0,
-      "avg": 54.93,
-      "min": 15.0,
+      "avg": 45.88,
+      "min": 9.0,
       "max": 60.0,
-      "samples": 71
-    },
-    "poeira": {
-      "median": 2.0,
-      "avg": 1.92,
-      "min": 1.0,
-      "max": 2.0,
-      "samples": 12
+      "samples": 112
     }
   },
   "golpe_sombrio": {
@@ -2246,41 +2287,41 @@
       "samples": 3
     },
     "energia": {
-      "median": 180.0,
-      "avg": 497.2,
-      "min": 3.0,
-      "max": 2000.0,
-      "samples": 5
+      "median": 240.0,
+      "avg": 240.0,
+      "min": 180.0,
+      "max": 300.0,
+      "samples": 2
     }
   },
   "lanca_ventos": {
     "tofu": {
-      "median": 5.0,
-      "avg": 7.31,
+      "median": 6.0,
+      "avg": 7.32,
       "min": 1.0,
       "max": 20.0,
-      "samples": 856
+      "samples": 852
     },
     "gold": {
-      "median": 37500.0,
-      "avg": 37932.04,
+      "median": 30000.0,
+      "avg": 36218.87,
       "min": 5000.0,
-      "max": 60000.0,
-      "samples": 206
+      "max": 80000.0,
+      "samples": 265
     },
     "energia": {
-      "median": 30.0,
-      "avg": 24.52,
+      "median": 24.0,
+      "avg": 22.04,
       "min": 6.0,
-      "max": 34.0,
-      "samples": 95
+      "max": 30.0,
+      "samples": 115
     },
     "chave": {
       "median": 5.0,
-      "avg": 4.38,
+      "avg": 4.37,
       "min": 2.0,
       "max": 10.0,
-      "samples": 177
+      "samples": 178
     }
   },
   "fragmento_altheryn_azul": {
@@ -2302,17 +2343,17 @@
     },
     "energia": {
       "median": 120.0,
-      "avg": 107.5,
+      "avg": 106.24,
       "min": 15.0,
       "max": 120.0,
-      "samples": 121
+      "samples": 123
     },
     "gold": {
-      "median": 75000.0,
-      "avg": 73333.33,
-      "min": 45000.0,
+      "median": 70000.0,
+      "avg": 66071.43,
+      "min": 40000.0,
       "max": 150000.0,
-      "samples": 9
+      "samples": 14
     },
     "chave": {
       "median": 20.0,
@@ -2320,6 +2361,13 @@
       "min": 7.0,
       "max": 20.0,
       "samples": 121
+    },
+    "poeira": {
+      "median": 2.0,
+      "avg": 2.0,
+      "min": 2.0,
+      "max": 2.0,
+      "samples": 2
     }
   },
   "artemis_arqueiro": {
@@ -2402,11 +2450,11 @@
       "samples": 868
     },
     "gold": {
-      "median": 5000.0,
-      "avg": 14483.33,
+      "median": 10000.0,
+      "avg": 16905.24,
       "min": 5.0,
-      "max": 40000.0,
-      "samples": 87
+      "max": 55000.0,
+      "samples": 105
     },
     "chave": {
       "median": 6.0,
@@ -2416,11 +2464,11 @@
       "samples": 148
     },
     "energia": {
-      "median": 60.0,
-      "avg": 47.84,
-      "min": 30.0,
+      "median": 36.0,
+      "avg": 42.86,
+      "min": 5.0,
       "max": 60.0,
-      "samples": 75
+      "samples": 86
     }
   },
   "poder_lich": {
@@ -2442,10 +2490,10 @@
     },
     "gold": {
       "median": 100000.0,
-      "avg": 100000.0,
-      "min": 100000.0,
+      "avg": 97500.0,
+      "min": 80000.0,
       "max": 100000.0,
-      "samples": 7
+      "samples": 8
     },
     "chave": {
       "median": 20.0,
@@ -2456,10 +2504,10 @@
     },
     "energia": {
       "median": 120.0,
-      "avg": 120.0,
-      "min": 120.0,
+      "avg": 118.89,
+      "min": 50.0,
       "max": 120.0,
-      "samples": 62
+      "samples": 63
     }
   },
   "wand_apprentice": {
@@ -2497,10 +2545,10 @@
   "lance_bone": {
     "gold": {
       "median": 500.0,
-      "avg": 708.99,
+      "avg": 60092.01,
       "min": 400.0,
-      "max": 5000.0,
-      "samples": 139
+      "max": 2000000.0,
+      "samples": 169
     },
     "energia": {
       "median": 3.5,
@@ -2510,11 +2558,11 @@
       "samples": 2
     },
     "tofu": {
-      "median": 20.0,
-      "avg": 35.83,
+      "median": 25.0,
+      "avg": 37.3,
       "min": 1.0,
       "max": 100.0,
-      "samples": 24
+      "samples": 23
     }
   },
   "tome_novice": {
@@ -2531,36 +2579,6 @@
       "min": 150.0,
       "max": 300.0,
       "samples": 7
-    }
-  },
-  "super_atk_tonic": {
-    "tofu": {
-      "median": 1.0,
-      "avg": 1.1,
-      "min": 1.0,
-      "max": 5.0,
-      "samples": 283
-    },
-    "gold": {
-      "median": 1450.0,
-      "avg": 2305.18,
-      "min": 550.0,
-      "max": 9500.0,
-      "samples": 164
-    },
-    "energia": {
-      "median": 3.0,
-      "avg": 3.16,
-      "min": 3.0,
-      "max": 5.0,
-      "samples": 99
-    },
-    "chave": {
-      "median": 1.0,
-      "avg": 1.0,
-      "min": 1.0,
-      "max": 1.0,
-      "samples": 8
     }
   },
   "skin_arena_champion_warrior_m": {
@@ -2596,10 +2614,10 @@
     },
     "gold": {
       "median": 30000.0,
-      "avg": 33424.72,
+      "avg": 32828.74,
       "min": 200.0,
       "max": 80000.0,
-      "samples": 356
+      "samples": 501
     },
     "chave": {
       "median": 5.0,
@@ -2609,20 +2627,20 @@
       "samples": 302
     },
     "energia": {
-      "median": 75.0,
-      "avg": 68.26,
-      "min": 5.0,
+      "median": 30.0,
+      "avg": 60.7,
+      "min": 3.0,
       "max": 120.0,
-      "samples": 233
+      "samples": 266
     }
   },
   "quiver_swamp": {
     "gold": {
       "median": 1000.0,
-      "avg": 2324.55,
+      "avg": 2230.4,
       "min": 125.0,
       "max": 65000.0,
-      "samples": 111
+      "samples": 139
     },
     "tofu": {
       "median": 35.0,
@@ -2634,11 +2652,11 @@
   },
   "tome_arcane": {
     "gold": {
-      "median": 250.0,
-      "avg": 479.11,
+      "median": 500.0,
+      "avg": 559.84,
       "min": 120.0,
-      "max": 1000.0,
-      "samples": 56
+      "max": 2000.0,
+      "samples": 64
     },
     "tofu": {
       "median": 9.5,
@@ -2646,15 +2664,22 @@
       "min": 1.0,
       "max": 20.0,
       "samples": 8
+    },
+    "energia": {
+      "median": 2.0,
+      "avg": 2.0,
+      "min": 2.0,
+      "max": 2.0,
+      "samples": 8
     }
   },
   "lance_elven": {
     "gold": {
       "median": 300.0,
-      "avg": 520.25,
+      "avg": 559.3,
       "min": 250.0,
       "max": 3000.0,
-      "samples": 79
+      "samples": 86
     },
     "tofu": {
       "median": 5.0,
@@ -2673,11 +2698,11 @@
   },
   "wand_mystic": {
     "gold": {
-      "median": 300.0,
-      "avg": 551.94,
+      "median": 325.0,
+      "avg": 783.51,
       "min": 130.0,
-      "max": 2000.0,
-      "samples": 67
+      "max": 15000.0,
+      "samples": 74
     },
     "tofu": {
       "median": 4.0,
@@ -2696,11 +2721,11 @@
       "samples": 624
     },
     "gold": {
-      "median": 40000.0,
-      "avg": 48611.11,
+      "median": 50000.0,
+      "avg": 47082.57,
       "min": 25000.0,
       "max": 75000.0,
-      "samples": 18
+      "samples": 109
     },
     "chave": {
       "median": 12.5,
@@ -2719,11 +2744,11 @@
       "samples": 938
     },
     "gold": {
-      "median": 40000.0,
-      "avg": 36800.0,
+      "median": 50000.0,
+      "avg": 48393.26,
       "min": 25000.0,
-      "max": 50000.0,
-      "samples": 25
+      "max": 80000.0,
+      "samples": 89
     },
     "chave": {
       "median": 25.0,
@@ -2804,6 +2829,13 @@
       "min": 17.0,
       "max": 1000.0,
       "samples": 164
+    },
+    "gold": {
+      "median": 200000.0,
+      "avg": 200000.0,
+      "min": 200000.0,
+      "max": 200000.0,
+      "samples": 4
     }
   },
   "pele_goblin_m": {
@@ -2829,6 +2861,13 @@
       "min": 7.0,
       "max": 60.0,
       "samples": 172
+    },
+    "gold": {
+      "median": 40000.0,
+      "avg": 52272.73,
+      "min": 35000.0,
+      "max": 180000.0,
+      "samples": 22
     },
     "energia": {
       "median": 30.0,
@@ -2856,11 +2895,11 @@
       "samples": 299
     },
     "energia": {
-      "median": 300.0,
-      "avg": 269.17,
+      "median": 3000.0,
+      "avg": 2153.82,
       "min": 130.0,
-      "max": 300.0,
-      "samples": 24
+      "max": 4000.0,
+      "samples": 68
     },
     "chave": {
       "median": 50.0,
@@ -2879,11 +2918,11 @@
       "samples": 13
     },
     "gold": {
-      "median": 3000.0,
-      "avg": 3000.0,
+      "median": 50000.0,
+      "avg": 33107.14,
       "min": 2000.0,
-      "max": 4000.0,
-      "samples": 2
+      "max": 50000.0,
+      "samples": 14
     },
     "tofu": {
       "median": 2.0,
@@ -2893,12 +2932,35 @@
       "samples": 21
     }
   },
+  "imperador_ossos": {
+    "tofu": {
+      "median": 150.0,
+      "avg": 193.18,
+      "min": 2.0,
+      "max": 1100.0,
+      "samples": 51
+    },
+    "gold": {
+      "median": 15000.0,
+      "avg": 15000.0,
+      "min": 15000.0,
+      "max": 15000.0,
+      "samples": 1
+    }
+  },
   "lance_short": {
     "tofu": {
       "median": 2.0,
       "avg": 2.0,
       "min": 2.0,
       "max": 2.0,
+      "samples": 1
+    },
+    "gold": {
+      "median": 5000.0,
+      "avg": 5000.0,
+      "min": 5000.0,
+      "max": 5000.0,
       "samples": 1
     }
   },
@@ -2908,6 +2970,13 @@
       "avg": 2.0,
       "min": 2.0,
       "max": 2.0,
+      "samples": 1
+    },
+    "gold": {
+      "median": 5000.0,
+      "avg": 5000.0,
+      "min": 5000.0,
+      "max": 5000.0,
       "samples": 1
     }
   },
@@ -2921,10 +2990,10 @@
     },
     "energia": {
       "median": 1.0,
-      "avg": 1.67,
+      "avg": 1.0,
       "min": 1.0,
-      "max": 3.0,
-      "samples": 6
+      "max": 1.0,
+      "samples": 4
     },
     "gold": {
       "median": 100.0,
@@ -2937,17 +3006,17 @@
   "mountain_mag_crystalwand": {
     "tofu": {
       "median": 100.0,
-      "avg": 135.89,
+      "avg": 144.66,
       "min": 1.0,
       "max": 300.0,
-      "samples": 97
+      "samples": 86
     },
     "energia": {
-      "median": 600.0,
-      "avg": 600.0,
-      "min": 300.0,
+      "median": 300.0,
+      "avg": 541.67,
+      "min": 250.0,
       "max": 900.0,
-      "samples": 10
+      "samples": 12
     },
     "gold": {
       "median": 3000000.0,
@@ -2973,27 +3042,27 @@
       "samples": 11
     },
     "energia": {
-      "median": 200.0,
-      "avg": 195.0,
-      "min": 160.0,
+      "median": 45.0,
+      "avg": 99.55,
+      "min": 45.0,
       "max": 200.0,
-      "samples": 8
+      "samples": 22
     }
   },
   "precisao_elfica": {
     "tofu": {
-      "median": 47.5,
-      "avg": 42.69,
+      "median": 45.0,
+      "avg": 42.6,
       "min": 18.0,
       "max": 50.0,
-      "samples": 140
+      "samples": 141
     },
     "energia": {
       "median": 150.0,
-      "avg": 150.0,
-      "min": 150.0,
+      "avg": 147.2,
+      "min": 80.0,
       "max": 150.0,
-      "samples": 24
+      "samples": 25
     },
     "chave": {
       "median": 25.0,
@@ -3010,6 +3079,13 @@
       "min": 10.0,
       "max": 100.0,
       "samples": 52
+    },
+    "gold": {
+      "median": 45000.0,
+      "avg": 45000.0,
+      "min": 30000.0,
+      "max": 60000.0,
+      "samples": 2
     },
     "energia": {
       "median": 240.0,
@@ -3043,19 +3119,19 @@
     },
     "energia": {
       "median": 25.0,
-      "avg": 25.0,
+      "avg": 26.25,
       "min": 25.0,
-      "max": 25.0,
-      "samples": 3
+      "max": 30.0,
+      "samples": 4
     }
   },
   "bone_key_pack_10": {
     "tofu": {
       "median": 15.0,
-      "avg": 13.77,
+      "avg": 12.88,
       "min": 1.0,
       "max": 100.0,
-      "samples": 22
+      "samples": 24
     },
     "gold": {
       "median": 12000.0,
@@ -3069,6 +3145,13 @@
       "avg": 30.0,
       "min": 5.0,
       "max": 55.0,
+      "samples": 2
+    },
+    "chave": {
+      "median": 5.0,
+      "avg": 5.0,
+      "min": 5.0,
+      "max": 5.0,
       "samples": 2
     }
   },
@@ -3084,17 +3167,17 @@
   "ovo_de_ouro": {
     "tofu": {
       "median": 12.0,
-      "avg": 10.77,
+      "avg": 10.73,
       "min": 3.0,
       "max": 15.0,
-      "samples": 98
+      "samples": 99
     },
     "gold": {
       "median": 25000.0,
-      "avg": 21157.74,
-      "min": 4.0,
+      "avg": 31935.97,
+      "min": 5.0,
       "max": 75000.0,
-      "samples": 39
+      "samples": 31
     }
   },
   "skin_coelho_f": {
@@ -3113,22 +3196,29 @@
       "min": 30.0,
       "max": 100.0,
       "samples": 154
+    },
+    "gold": {
+      "median": 200000.0,
+      "avg": 193333.33,
+      "min": 150000.0,
+      "max": 200000.0,
+      "samples": 15
     }
   },
   "bolsa_recrutador": {
     "tofu": {
       "median": 20.0,
-      "avg": 20.49,
+      "avg": 20.07,
       "min": 3.0,
-      "max": 50.0,
-      "samples": 427
+      "max": 35.0,
+      "samples": 421
     },
     "gold": {
-      "median": 45000.0,
-      "avg": 45000.0,
+      "median": 70000.0,
+      "avg": 67857.14,
       "min": 45000.0,
-      "max": 45000.0,
-      "samples": 1
+      "max": 80000.0,
+      "samples": 7
     },
     "chave": {
       "median": 7.0,
@@ -3154,27 +3244,27 @@
       "samples": 71
     },
     "gold": {
-      "median": 40000.0,
-      "avg": 42500.0,
-      "min": 30000.0,
+      "median": 27500.0,
+      "avg": 33750.0,
+      "min": 25000.0,
       "max": 75000.0,
-      "samples": 8
+      "samples": 16
     }
   },
   "hydra_mag_staff": {
     "tofu": {
-      "median": 62.5,
-      "avg": 72.37,
+      "median": 65.0,
+      "avg": 73.17,
       "min": 10.0,
       "max": 300.0,
-      "samples": 482
+      "samples": 497
     },
     "energia": {
       "median": 360.0,
-      "avg": 335.0,
+      "avg": 326.6,
       "min": 60.0,
       "max": 390.0,
-      "samples": 78
+      "samples": 81
     },
     "chave": {
       "median": 60.0,
@@ -3202,11 +3292,11 @@
   },
   "hydra_mago_slayer": {
     "tofu": {
-      "median": 100.0,
-      "avg": 154.9,
+      "median": 220.0,
+      "avg": 192.8,
       "min": 100.0,
       "max": 300.0,
-      "samples": 51
+      "samples": 93
     }
   },
   "colar_aspecto_arqueiro": {
@@ -3225,11 +3315,11 @@
       "samples": 17
     },
     "energia": {
-      "median": 60.0,
-      "avg": 62.35,
-      "min": 24.0,
+      "median": 45.0,
+      "avg": 55.31,
+      "min": 15.0,
       "max": 90.0,
-      "samples": 79
+      "samples": 103
     },
     "gold": {
       "median": 200000.0,
@@ -3237,15 +3327,22 @@
       "min": 200000.0,
       "max": 450000.0,
       "samples": 34
+    },
+    "poeira": {
+      "median": 2.0,
+      "avg": 2.0,
+      "min": 2.0,
+      "max": 2.0,
+      "samples": 13
     }
   },
   "colar_aspecto_mago": {
     "tofu": {
       "median": 40.0,
-      "avg": 39.67,
+      "avg": 38.08,
       "min": 10.0,
       "max": 70.0,
-      "samples": 178
+      "samples": 213
     },
     "gold": {
       "median": 225000.0,
@@ -3258,19 +3355,19 @@
   "mountain_arc_dragonlance": {
     "tofu": {
       "median": 120.0,
-      "avg": 143.73,
+      "avg": 149.13,
       "min": 50.0,
       "max": 350.0,
-      "samples": 55
+      "samples": 78
     }
   },
   "desert_armor_guerreiro": {
     "tofu": {
       "median": 80.0,
-      "avg": 78.46,
+      "avg": 79.22,
       "min": 20.0,
       "max": 220.0,
-      "samples": 539
+      "samples": 528
     },
     "gold": {
       "median": 80.0,
@@ -3280,25 +3377,18 @@
       "samples": 30
     },
     "energia": {
-      "median": 95.0,
-      "avg": 112.03,
-      "min": 90.0,
-      "max": 180.0,
-      "samples": 32
+      "median": 125.0,
+      "avg": 175.94,
+      "min": 60.0,
+      "max": 300.0,
+      "samples": 101
     },
     "chave": {
-      "median": 55.0,
-      "avg": 39.45,
-      "min": 18.0,
+      "median": 37.5,
+      "avg": 38.65,
+      "min": 12.0,
       "max": 60.0,
-      "samples": 33
-    },
-    "poeira": {
-      "median": 7.0,
-      "avg": 7.85,
-      "min": 5.0,
-      "max": 20.0,
-      "samples": 13
+      "samples": 34
     }
   },
   "colar_aspecto_guerreiro": {
@@ -3310,11 +3400,11 @@
       "samples": 198
     },
     "gold": {
-      "median": 200000.0,
-      "avg": 193750.0,
-      "min": 175000.0,
+      "median": 187500.0,
+      "avg": 169166.67,
+      "min": 120000.0,
       "max": 200000.0,
-      "samples": 4
+      "samples": 6
     },
     "chave": {
       "median": 10.0,
@@ -3322,6 +3412,13 @@
       "min": 8.0,
       "max": 10.0,
       "samples": 17
+    },
+    "energia": {
+      "median": 50.0,
+      "avg": 50.0,
+      "min": 50.0,
+      "max": 50.0,
+      "samples": 23
     }
   },
   "skin_arena_champion_archer_f": {
@@ -3361,24 +3458,24 @@
   "machado_colosso_solar": {
     "tofu": {
       "median": 15.0,
-      "avg": 22.43,
+      "avg": 22.59,
       "min": 0.3,
       "max": 150.0,
-      "samples": 863
+      "samples": 852
     },
     "energia": {
       "median": 45.0,
-      "avg": 92.26,
-      "min": 30.0,
+      "avg": 74.74,
+      "min": 15.0,
       "max": 150.0,
-      "samples": 73
+      "samples": 96
     },
     "gold": {
-      "median": 225000.0,
-      "avg": 314120.0,
+      "median": 150000.0,
+      "avg": 271306.09,
       "min": 40.0,
       "max": 750000.0,
-      "samples": 17
+      "samples": 23
     },
     "chave": {
       "median": 5.0,
@@ -3386,13 +3483,6 @@
       "min": 2.0,
       "max": 7.0,
       "samples": 26
-    },
-    "poeira": {
-      "median": 2.0,
-      "avg": 2.0,
-      "min": 2.0,
-      "max": 2.0,
-      "samples": 11
     }
   },
   "fragmento_altheryn_verde": {
@@ -3407,17 +3497,10 @@
   "arco_tempestade_solar": {
     "tofu": {
       "median": 170.0,
-      "avg": 148.14,
+      "avg": 148.53,
       "min": 15.0,
       "max": 500.0,
-      "samples": 290
-    },
-    "poeira": {
-      "median": 7.0,
-      "avg": 7.0,
-      "min": 7.0,
-      "max": 7.0,
-      "samples": 1
+      "samples": 289
     },
     "energia": {
       "median": 150.0,
@@ -3436,18 +3519,18 @@
   },
   "varinha_sol_velado": {
     "tofu": {
-      "median": 35.0,
-      "avg": 46.42,
+      "median": 40.0,
+      "avg": 47.0,
       "min": 5.0,
       "max": 170.0,
-      "samples": 508
+      "samples": 497
     },
     "energia": {
-      "median": 150.0,
-      "avg": 142.5,
-      "min": 120.0,
+      "median": 50.0,
+      "avg": 59.03,
+      "min": 20.0,
       "max": 150.0,
-      "samples": 4
+      "samples": 30
     },
     "gold": {
       "median": 40.0,
@@ -3462,36 +3545,22 @@
       "min": 2.0,
       "max": 10.0,
       "samples": 26
-    },
-    "poeira": {
-      "median": 4.0,
-      "avg": 4.0,
-      "min": 4.0,
-      "max": 4.0,
-      "samples": 11
     }
   },
   "grevas_dunas": {
     "tofu": {
       "median": 60.0,
-      "avg": 81.93,
+      "avg": 82.14,
       "min": 20.0,
       "max": 1000.0,
-      "samples": 384
+      "samples": 379
     },
     "energia": {
-      "median": 750.0,
-      "avg": 750.0,
-      "min": 750.0,
+      "median": 125.0,
+      "avg": 153.79,
+      "min": 125.0,
       "max": 750.0,
-      "samples": 1
-    },
-    "poeira": {
-      "median": 12.0,
-      "avg": 11.5,
-      "min": 10.0,
-      "max": 12.0,
-      "samples": 4
+      "samples": 29
     },
     "chave": {
       "median": 25.0,
@@ -3504,31 +3573,31 @@
   "anel_olho_solar": {
     "tofu": {
       "median": 35.0,
-      "avg": 44.78,
-      "min": 5.0,
+      "avg": 45.12,
+      "min": 10.0,
       "max": 220.0,
-      "samples": 337
-    },
-    "poeira": {
-      "median": 5.0,
-      "avg": 4.0,
-      "min": 2.0,
-      "max": 5.0,
-      "samples": 3
+      "samples": 335
     },
     "energia": {
       "median": 45.0,
-      "avg": 48.81,
+      "avg": 51.16,
       "min": 25.0,
-      "max": 60.0,
-      "samples": 42
+      "max": 150.0,
+      "samples": 43
     },
     "gold": {
       "median": 180000.0,
-      "avg": 170000.0,
+      "avg": 167142.86,
       "min": 120000.0,
       "max": 180000.0,
-      "samples": 6
+      "samples": 7
+    },
+    "poeira": {
+      "median": 2.0,
+      "avg": 2.0,
+      "min": 2.0,
+      "max": 2.0,
+      "samples": 2
     }
   },
   "skin_dragon_black_archer_m": {
@@ -3543,17 +3612,17 @@
   "anel_areia_obscura": {
     "tofu": {
       "median": 25.0,
-      "avg": 42.75,
+      "avg": 42.8,
       "min": 1.0,
       "max": 250.0,
-      "samples": 637
+      "samples": 636
     },
     "energia": {
-      "median": 120.0,
-      "avg": 200.46,
-      "min": 45.0,
+      "median": 60.0,
+      "avg": 191.64,
+      "min": 10.0,
       "max": 600.0,
-      "samples": 164
+      "samples": 174
     },
     "gold": {
       "median": 225000.0,
@@ -3575,29 +3644,6 @@
       "min": 2.0,
       "max": 2.0,
       "samples": 1
-    }
-  },
-  "orc_arc_armor": {
-    "tofu": {
-      "median": 110.0,
-      "avg": 166.1,
-      "min": 25.0,
-      "max": 500.0,
-      "samples": 109
-    },
-    "chave": {
-      "median": 55.0,
-      "avg": 55.0,
-      "min": 55.0,
-      "max": 55.0,
-      "samples": 3
-    },
-    "energia": {
-      "median": 300.0,
-      "avg": 300.0,
-      "min": 300.0,
-      "max": 300.0,
-      "samples": 19
     }
   },
   "lanca_mil_chamas": {
@@ -3640,10 +3686,17 @@
     },
     "energia": {
       "median": 90.0,
-      "avg": 85.0,
+      "avg": 110.0,
       "min": 60.0,
-      "max": 90.0,
-      "samples": 6
+      "max": 260.0,
+      "samples": 7
+    },
+    "gold": {
+      "median": 450000.0,
+      "avg": 450000.0,
+      "min": 450000.0,
+      "max": 450000.0,
+      "samples": 5
     }
   },
   "cajado_dunas_antigas": {
@@ -3665,10 +3718,10 @@
   "talisa_sol_fossil": {
     "tofu": {
       "median": 40.0,
-      "avg": 42.47,
+      "avg": 43.12,
       "min": 15.0,
       "max": 60.0,
-      "samples": 87
+      "samples": 85
     },
     "energia": {
       "median": 90.0,
@@ -3676,13 +3729,6 @@
       "min": 90.0,
       "max": 110.0,
       "samples": 8
-    },
-    "poeira": {
-      "median": 3.0,
-      "avg": 3.0,
-      "min": 3.0,
-      "max": 3.0,
-      "samples": 2
     },
     "gold": {
       "median": 450000.0,
@@ -3695,24 +3741,17 @@
   "colar_eclipse_ritual": {
     "tofu": {
       "median": 45.0,
-      "avg": 48.16,
-      "min": 10.0,
+      "avg": 48.41,
+      "min": 13.0,
       "max": 200.0,
-      "samples": 154
-    },
-    "poeira": {
-      "median": 2.0,
-      "avg": 2.0,
-      "min": 2.0,
-      "max": 2.0,
-      "samples": 1
+      "samples": 153
     },
     "energia": {
       "median": 60.0,
-      "avg": 60.0,
+      "avg": 327.27,
       "min": 60.0,
-      "max": 60.0,
-      "samples": 20
+      "max": 3000.0,
+      "samples": 22
     }
   },
   "pele_goblin_f": {
@@ -3722,6 +3761,15 @@
       "min": 30.0,
       "max": 160.0,
       "samples": 51
+    }
+  },
+  "mochila_veadin": {
+    "tofu": {
+      "median": 45.0,
+      "avg": 38.88,
+      "min": 15.0,
+      "max": 50.0,
+      "samples": 125
     }
   },
   "orc_mag_armor": {
@@ -3747,6 +3795,13 @@
       "min": 40.0,
       "max": 40.0,
       "samples": 2
+    },
+    "energia": {
+      "median": 250.0,
+      "avg": 250.0,
+      "min": 250.0,
+      "max": 250.0,
+      "samples": 2
     }
   },
   "mountain_war_dragonblade": {
@@ -3756,6 +3811,29 @@
       "min": 90.0,
       "max": 450.0,
       "samples": 27
+    }
+  },
+  "bolsa_hidra_ossos": {
+    "tofu": {
+      "median": 40.0,
+      "avg": 50.47,
+      "min": 25.0,
+      "max": 500.0,
+      "samples": 94
+    },
+    "chave": {
+      "median": 25.0,
+      "avg": 26.85,
+      "min": 20.0,
+      "max": 40.0,
+      "samples": 27
+    },
+    "energia": {
+      "median": 125.0,
+      "avg": 125.0,
+      "min": 125.0,
+      "max": 125.0,
+      "samples": 21
     }
   },
   "shadow_knight_guerreiro": {
@@ -3781,6 +3859,13 @@
       "min": 10.0,
       "max": 650.0,
       "samples": 86
+    },
+    "energia": {
+      "median": 150.0,
+      "avg": 150.0,
+      "min": 150.0,
+      "max": 150.0,
+      "samples": 1
     }
   },
   "mountain_mag_dragonstaff": {
@@ -3795,10 +3880,10 @@
   "mountain_arc_wyvernbow": {
     "tofu": {
       "median": 140.0,
-      "avg": 136.98,
+      "avg": 140.92,
       "min": 70.0,
       "max": 320.0,
-      "samples": 43
+      "samples": 64
     },
     "energia": {
       "median": 420.0,
@@ -3806,6 +3891,47 @@
       "min": 420.0,
       "max": 420.0,
       "samples": 22
+    }
+  },
+  "esfera_zero_absoluto": {
+    "tofu": {
+      "median": 200.0,
+      "avg": 198.26,
+      "min": 100.0,
+      "max": 300.0,
+      "samples": 23
+    },
+    "energia": {
+      "median": 300.0,
+      "avg": 300.0,
+      "min": 300.0,
+      "max": 300.0,
+      "samples": 5
+    },
+    "gold": {
+      "median": 1500000.0,
+      "avg": 1500000.0,
+      "min": 1500000.0,
+      "max": 1500000.0,
+      "samples": 5
+    }
+  },
+  "grimorio_frio": {
+    "tofu": {
+      "median": 180.0,
+      "avg": 174.81,
+      "min": 50.0,
+      "max": 450.0,
+      "samples": 79
+    }
+  },
+  "totem_obscuro": {
+    "tofu": {
+      "median": 14.0,
+      "avg": 14.42,
+      "min": 6.0,
+      "max": 40.0,
+      "samples": 77
     }
   },
   "amuleto_lince_saqueadora": {
@@ -3821,6 +3947,13 @@
       "avg": 2.0,
       "min": 2.0,
       "max": 2.0,
+      "samples": 3
+    },
+    "energia": {
+      "median": 20.0,
+      "avg": 20.0,
+      "min": 20.0,
+      "max": 20.0,
       "samples": 3
     }
   },
@@ -3840,6 +3973,15 @@
       "min": 1.0,
       "max": 1.0,
       "samples": 1
+    }
+  },
+  "arco_gelo": {
+    "tofu": {
+      "median": 60.0,
+      "avg": 82.5,
+      "min": 60.0,
+      "max": 250.0,
+      "samples": 12
     }
   },
   "bau_tesouro": {

@@ -25,5 +25,14 @@
 
   { "key": "cajado_lich", "name": "Cajado do Lich", "slot": "special", "rarity": "legendary", "class": "mago", "level": null, "location": "Desconhecido (não confirmado no jogo)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": true, "seasonal": false },
 
-  { "key": "bau_tesouro", "name": "Baú do Tesouro", "slot": "key", "rarity": "epic", "class": null, "level": null, "location": "Desconhecido (não documentado no site oficial)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": false, "seasonal": false }
+  { "key": "bau_tesouro", "name": "Baú do Tesouro", "slot": "key", "rarity": "epic", "class": null, "level": null, "location": "Desconhecido (não documentado no site oficial)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": false, "seasonal": false },
+
+  { "key": "bolsa_hidra_ossos", "name": "Bolsa da Hidra de Ossos", "slot": "backpack", "rarity": "legendary", "class": null, "level": null, "location": "Desconhecido (não documentado no site oficial)", "attrs": "SLOTS +20", "dropRate": null, "tradeable": true, "twoHanded": false, "seasonal": false },
+  { "key": "mochila_veadin", "name": "Mochila do Veadin", "slot": "backpack", "rarity": "legendary", "class": null, "level": null, "location": "Desconhecido (não documentado no site oficial)", "attrs": "SLOTS +15", "dropRate": null, "tradeable": true, "twoHanded": false, "seasonal": false },
+
+  { "key": "esfera_zero_absoluto", "name": "Esfera Zero Absoluto", "slot": "special", "rarity": "legendary", "class": null, "level": null, "location": "Desconhecido (não documentado no site oficial)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": false, "seasonal": false },
+  { "key": "grimorio_frio", "name": "Grimório do Frio", "slot": "special", "rarity": "legendary", "class": null, "level": null, "location": "Desconhecido (não documentado no site oficial)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": true, "seasonal": false },
+  { "key": "totem_obscuro", "name": "Totem Obscuro", "slot": "special", "rarity": "legendary", "class": null, "level": null, "location": "Desconhecido (não documentado no site oficial)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": false, "seasonal": false },
+  { "key": "imperador_ossos", "name": "Imperador dos Ossos", "slot": "special", "rarity": "legendary", "class": null, "level": 30, "location": "Desconhecido (não documentado no site oficial)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": false, "seasonal": false },
+  { "key": "arco_gelo", "name": "Arco do Gelo", "slot": "special", "rarity": "legendary", "class": "arqueiro", "level": null, "location": "Desconhecido (não documentado no site oficial)", "attrs": "—", "dropRate": null, "tradeable": true, "twoHanded": true, "seasonal": false }
 ]

@@ -45,7 +45,7 @@ O jogo roda dentro de um grupo do Telegram, com um tópico "Vendas e Trocas" ond
 
 Mensagens ambíguas (0 ou 2+ itens, ou sem preço reconhecido) vão para `review_needed.csv`, pra revisão manual.
 
-> **Snapshot atual:** os preços publicados em `market_prices.json` (e refletidos no Codex) foram calculados a partir do histórico de mensagens coletado até **13/07/2026**.
+> **Snapshot atual:** os preços publicados em `market_prices.json` (e refletidos no Codex) foram calculados a partir do histórico de mensagens coletado até **14/07/2026**.
 
 ### Configurar
 
